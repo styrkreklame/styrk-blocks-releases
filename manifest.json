@@ -1,15 +1,15 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "1.3.4",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.3.4.zip",
+  "version": "1.3.5",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.3.5.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.1",
   "author": "Styrk Reklame AS",
-  "last_updated": "2026-04-20 13:14:16",
+  "last_updated": "2026-04-20 13:37:42",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "### Changed\n- **Update channel rewritten to use a JSON manifest, no GitHub API.**\n  `includes/updater.php` used to point PUC at the private GitHub repo\n  and ask every client site to set `CB_UPDATE_AUTH_TOKEN` to a personal\n  access token. That was a deal-breaker for distribution — every new\n  customer install would otherwise nag in wp-admin with GitHub 404s.\n  The new config is a single public URL (default\n  `https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/manifest.json`) that\n  PUC reads on each check; the manifest points at the"
+    "changelog": "### Fixed\n- **v1.3.4 was unactivatable (fatal parse error) on any site that\n  tried to install it.** The v1.3.3 regex that removed the\n  `/* one-time patch */ add_action( 'init', ... }, 99 );` block from\n  `styrk-blocks.php` only matched the opening half — it stopped at the\n  first `}, 99 );` inside the self-destruct code's *string* literal\n  (`\"}, 99 );\\n\"`), leaving the tail (`\\n\", $s ); if ( $e !== false )\n  { ... }, 99 );`) orphan and unparseable. Every v1.3.4"
   }
 }
