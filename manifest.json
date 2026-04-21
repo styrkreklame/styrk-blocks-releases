@@ -1,15 +1,15 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "1.3.6",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.3.6.zip",
+  "version": "1.3.7",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.3.7.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.1",
   "author": "Styrk Reklame AS",
-  "last_updated": "2026-04-21 06:40:20",
+  "last_updated": "2026-04-21 07:33:09",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "### Fixed\n- **Eyebrow text/background color pickers were empty on sites whose\n  theme.json has no `color.palette`.** SectionHeader's `<ColorPalette>`\n  was passing `disableCustomColors` *and* relying on `useSetting('color\n  .palette')` for the swatch list — if the palette was empty (default\n  on a fresh theme), the panel rendered just a \"Clear\" button with no\n  way to set a colour. Removed `disableCustomColors` so the standard\n  WP custom-colour picker is always available, and theme-palette\n  swatches still appear when present.\n\n- **User-authored hero (and any first block) was silently hidden on\n  every inner page** by the bundled styrk-theme. The theme's\n  `templates/page.html` auto-injected a `<div class=\"cb-page-hero\">`\n  wrapper containing only `wp:post-title`, AND its stylesheet had a\n  rule `.cb-page-hero ~ main … .cb-hero:first-child { display: none\n  !important }`. So pages /services, /contact, etc. always rendered\n  the theme's stripped-down title bar instead of whatever block the\n  editor showed at the top. Removed both the auto-injection and the\n  `display: none` rule — the user's first block (hero, page-header, or\n  anything else) now renders as authored. Companion theme bumped to\n  v1.2.0; the plugin's existing companion-theme installer detects the\n  version delta and prompts to update on each client site.\n\n- **Cards stayed visually collapsed (opacity 0.4, dashed outline)\n  forever after a fast drag that released outside the iframe.** The\n  v1.3.5 fix to the drop-commit bug removed the iframe-document\n  pointerup listener entirely — which closed the commit hole but\n  reopened a stuck-state hole: if the pointer left the iframe before\n  release, neither React's bubble-phase handler nor the outer-document\n  capture-phase handler ever fired, so `dragRef.current` and\n  `dragIndex` state stayed set indefinitely. The hook now binds\n  pointerup/pointercancel to the iframe document in BUBBLE phase\n  (after React commits), restoring the safety-net reset without\n  pre-empting the commit. Verified end-to-end: long-press + drag\n  reorders the array, AND a release outside the card resets opacity\n  to 1.\n\n### Added\n- **`.github/workflows/ci.yml` — GitHub Actions pipeline.** Required\n  status check before any merge to main. Runs `php -l` on every\n  shipped `.php` file (would have caught the v1.3.4 fatal), then\n  `tsc --noEmit`, `eslint`, `stylelint`, and `pnpm build`, and\n  finally fails if `build/` differs from what's committed (i.e.\n  someone forgot to rebuild). Set the branch protection rule on\n  GitHub once: Settings → Branches → main → Require status checks →\n  select \"ci / lint-and-build\".\n\n---"
+    "changelog": "- fix(ci): add workflow_dispatch trigger to release workflow\n\n---"
   }
 }
