@@ -1,15 +1,15 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "1.4.1",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.4.1.zip",
+  "version": "1.5.0",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.5.0.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.1",
   "author": "Styrk Reklame AS",
-  "last_updated": "2026-04-23 15:46:10",
+  "last_updated": "2026-04-23 16:24:03",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(ci): configure git identity once for all release-workflow steps\n\n---"
+    "changelog": "### Fixed (design-system conformance — audit round 2)\n\n- **`hero` block** — English placeholder copy (\"We craft bold digital\n  experiences.\" / \"A senior team of designers and engineers…\") replaced\n  with neutral Norwegian bokmål defaults. Plugin ships as a reusable\n  shell, so the defaults are generic enough to fit any vertical.\n  Also: CTA button arrow was the same inline Phosphor-filled 256×256\n  SVG we replaced in rich-text-section — now uses\n  `cb_render_icon('arrow-right')` at 18×18.\n- **`feature-cards`** — `addItem()` no longer seeds a `★` emoji on new\n  cards. The design system reserves the star glyph for testimonial\n  ratings; new items now default to an empty icon so the editor\n  prompts a catalog pick directly.\n- **`testimonial`** — `.cb-block-testimonial` section background had a\n  `linear-gradient(180deg, var(--cb-surface) 0%, #fff 100%)`, which\n  violates the \"no gradients on backgrounds\" rule (stat numbers are\n  the one documented exception). Now uses solid\n  `var(--wp--preset--color--surface, …)` which preserves the\n  alternating-section rhythm.\n- **`react-header`** — six inline `transition: …` styles in `view.tsx`\n  were not respecting `prefers-reduced-motion`. Added a CSS killswitch\n  in `src/style.css` that"
   }
 }
