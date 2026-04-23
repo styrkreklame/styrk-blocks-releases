@@ -1,15 +1,15 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "1.6.0",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.6.0.zip",
+  "version": "1.6.1",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.6.1.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.1",
   "author": "Styrk Reklame AS",
-  "last_updated": "2026-04-23 17:09:45",
+  "last_updated": "2026-04-23 17:52:04",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "### Changed\n- **Global footer redesigned end-to-end against the design system.**\n  - Palette: was `color: --cb-secondary` (teal on navy — **1.9:1**,\n    a WCAG AA failure). Now: headings white (9.9:1 AAA), body\n    `rgba(255,255,255,0.85)` (6.7:1 AA), muted bottom-bar\n    `rgba(255,255,255,0.70)` (5.8:1 AA). All three verified ≥ 4.5:1\n    against the navy primary.\n  - Typography: documented eyebrow spec for column headings (14px\n    Inter 600, 0.14em tracking, UPPERCASE) — was 18px 700 0.08em.\n    Body 16px 1.65 line-height; bottom bar 14px 1.5.\n  - Content width: `max-w-site-md` (1200px) — was 1280px (off-token).\n  - Focus ring on every interactive element: 2px\n    `var(--wp--preset--color--accent)` at 3px offset (design-system\n    spec). Previously invisible to keyboard nav.\n  - Link hover: underline appears at 2px thickness, 4px offset, no\n    colour change (matches design-system CTA spec). Previously\n    swapped colour to `--cb-surface`, breaking consistency.\n  - `prefers-reduced-motion: reduce` killswitch on the entire footer\n    subtree. Zero motion-respect previously.\n  - Minimum 44×44 px tap targets on all links and social circles\n    (logo link, legal nav, social buttons).\n\n### Added\n- **`[footer_legal]` shortcode + Settings → Footer → Legal Links\n  field.** Admin enters one `Label|URL` per line (e.g.\n  `Personvern|/personvern`); shortcode renders an inline `<nav\n  aria-label=\"Juridisk\">` list with hairline `·` separators between\n  items. Empty setting collapses the row — sites without legal\n  links keep their existing two-slot bottom bar.\n- **Semantic heading hierarchy in the footer.** Column labels are\n  now `<h2>` elements (site-name, Kontakt, Følg oss), so screen\n  readers can navigate the footer via heading shortcuts, not just\n  landmark nav. Updated shortcodes `[footer_site_name]` /\n  `[footer_social_heading]` + hardcoded \"Kontakt\" in\n  `styrk-theme/parts/footer.html`.\n- **Focus-ring + reduced-motion killswitch on social circles** in\n  the companion theme (previously invisible to keyboard users).\n\n### Fixed\n- **Specificity conflict between plugin and theme CSS.**\n  `styrk-theme/style.css` carried a duplicated copy of the footer\n  stylesheet that fought the plugin's rules on source order.\n  Removed from theme — plugin's `src/style.css` is now the single\n  source of truth. Theme keeps only the social-icon chrome and the\n  `wp:site-logo` fallback invert.\n- **WP `:where(.is-layout-flow) > * { margin-block: 0 }` was"
+    "changelog": "- fix(design-system): retune --surface from iced-teal to warm off-white\n\n---"
   }
 }
