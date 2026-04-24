@@ -1,15 +1,15 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "1.6.14",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.6.14.zip",
+  "version": "1.6.15",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.6.15.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.1",
   "author": "Styrk Reklame AS",
-  "last_updated": "2026-04-24 11:29:34",
+  "last_updated": "2026-04-24 11:36:31",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(styrk-theme): collapse main breathing-padding when first block is alignfull\n\n---"
+    "changelog": "- fix(cta-section + theme): admin bg wins over accent gradient; alignfull last-block hugs footer\n\n---"
   }
 }
