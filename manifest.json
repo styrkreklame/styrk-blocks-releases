@@ -1,15 +1,15 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "1.6.5",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.6.5.zip",
+  "version": "1.6.6",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.6.6.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.1",
   "author": "Styrk Reklame AS",
-  "last_updated": "2026-04-24 07:06:53",
+  "last_updated": "2026-04-24 07:15:46",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(footer-logo): move white-logo setting to Footer Settings + fallback\n\n---"
+    "changelog": "- docs(claude): align CLAUDE.md with official brand book palette\n\n---"
   }
 }
