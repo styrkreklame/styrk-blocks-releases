@@ -1,15 +1,15 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "1.6.16",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.6.16.zip",
+  "version": "1.6.17",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.6.17.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.1",
   "author": "Styrk Reklame AS",
-  "last_updated": "2026-04-24 12:00:59",
+  "last_updated": "2026-04-24 12:51:25",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat: section eyebrow on sub-pages + breadcrumbs block + black palette + editor-plugin loader\n\n---"
+    "changelog": "- fix(auto-hero + breadcrumbs): kill 'f' glyph smudge; suppress when page-header present; reserve header space\n\n---"
   }
 }
