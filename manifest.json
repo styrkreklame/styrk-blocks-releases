@@ -1,15 +1,15 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.7.11",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.7.11.zip",
+  "version": "0.7.12",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.7.12.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.1",
   "author": "Styrk Reklame AS",
-  "last_updated": "2026-04-28 08:12:58",
+  "last_updated": "2026-04-28 08:38:09",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(react-header): native site search — icon + overlay + pre-warm + dropdown\n\n---"
+    "changelog": "- fix(search): proper Norwegian results page with loud empty state\n\n---"
   }
 }
