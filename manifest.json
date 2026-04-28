@@ -1,15 +1,15 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.7.7",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.7.7.zip",
+  "version": "0.7.8",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.7.8.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.1",
   "author": "Styrk Reklame AS",
-  "last_updated": "2026-04-28 07:20:05",
+  "last_updated": "2026-04-28 07:29:34",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(process-block): add Eyebrow inspector panel — visibility, alignment, bg/text color, radius\n\n---"
+    "changelog": "- fix(process-block): eyebrow alignment no longer drags heading along with it\n\n---"
   }
 }
