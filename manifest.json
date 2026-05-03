@@ -1,15 +1,15 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.7.16",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.7.16.zip",
+  "version": "0.7.17",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.7.17.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.1",
   "author": "Styrk Reklame AS",
-  "last_updated": "2026-04-28 12:14:14",
+  "last_updated": "2026-05-03 11:54:18",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(seo): Person JSON-LD schema for employee CPT\n\n---"
+    "changelog": "- fix(faq-accordion): add inner px-6 so heading isn't pinned to viewport edge\n\n---"
   }
 }
