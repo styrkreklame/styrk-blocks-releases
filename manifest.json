@@ -1,15 +1,15 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.7.20",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.7.20.zip",
+  "version": "0.7.21",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.7.21.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.1",
   "author": "Styrk Reklame AS",
-  "last_updated": "2026-05-03 14:48:31",
+  "last_updated": "2026-05-03 15:00:08",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(alignment): anchor narrow text columns to the wide rail's left edge\n\n---"
+    "changelog": "- refactor(cta): extract CtaInspectorPanels + useCtas across 4 blocks\n\n---"
   }
 }
