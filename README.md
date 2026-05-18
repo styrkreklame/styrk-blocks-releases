@@ -2,8 +2,8 @@
 
 Public release channel for the [styrk-blocks](https://github.com/styrkreklame/styrk-blocks) WordPress plugin.
 
-Do **not** commit by hand — published automatically by the Release workflow on the source repo.
+Do **not** commit by hand — published by `pnpm run release:publish` from the source repo.
 
-- **Current version:** `0.7.27`
+- **Current version:** `0.8.0`
 - **Manifest (client sites read this):** `manifest.json`
 - **Downloads:** one `styrk-blocks-X.Y.Z.zip` per shipped version

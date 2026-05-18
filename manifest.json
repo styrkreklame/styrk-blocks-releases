@@ -1,15 +1,15 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.7.27",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.7.27.zip",
+  "version": "0.8.0",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.8.0.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.1",
   "author": "Styrk Reklame AS",
-  "last_updated": "2026-05-05 10:06:46",
+  "last_updated": "2026-05-18 09:03:41",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(footer): editable certification badges via Settings → Footer\n\n---"
+    "changelog": "### Added\n- feat(cpts): Projects + Testimonials custom post types with editor sidebar meta panels\n- feat(blocks): featured-projects — Projects CPT loop with eyebrow, heading, columns, per-page\n- feat(blocks): project-hero, project-meta — single-project page primitives\n- feat(blocks): testimonials — Testimonials CPT loop\n- feat(search): admin-configurable overlay + results-page colors in Settings → Search\n- feat(blocks): contact-section gains columnsGap + infoItemsOrder attributes\n- feat(blocks): split-section enables link color customi"
   }
 }
