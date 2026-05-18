@@ -1,15 +1,15 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.8.0",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.8.0.zip",
+  "version": "0.8.1",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.8.1.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.1",
   "author": "Styrk Reklame AS",
-  "last_updated": "2026-05-18 09:03:41",
+  "last_updated": "2026-05-18 09:58:53",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "### Added\n- feat(cpts): Projects + Testimonials custom post types with editor sidebar meta panels\n- feat(blocks): featured-projects — Projects CPT loop with eyebrow, heading, columns, per-page\n- feat(blocks): project-hero, project-meta — single-project page primitives\n- feat(blocks): testimonials — Testimonials CPT loop\n- feat(search): admin-configurable overlay + results-page colors in Settings → Search\n- feat(blocks): contact-section gains columnsGap + infoItemsOrder attributes\n- feat(blocks): split-section enables link color customi"
+    "changelog": "### Added — comprehensive search color controls\n\nCloses the gap left by v0.8.0, which added two overlay icon controls but\nleft hover states + the standalone results-page heading/eyebrow either\nhardcoded or sharing a control that didn't fit. Every interactive state\nin both the overlay dropdown and the standalone /?s= results page is\nnow admin-tunable via Settings → Search.\n\nSix new fields:\n\n**Overlay (header dropdown):**\n- `overlay_result_hover_bg` — background tint when a result row is\n  hovered or keyboard-active (arrow keys)\n- `overlay_all_results_color` — \"See all results for X →\" link color\n- `overlay_all_results_hover_bg` — hover/focus background for the same link\n\n**Results page (/?s=…):**\n- `results_eyebrow_color` — the small \"SØKERESULTATER\" label (was sharing\n  `results_text`; couldn't be tuned independently of body text)\n- `results_heading_color` — the big H1 heading (same issue)\n- `results_submit_hover_bg` — submit button hover background (was hardcoded\n  to `filter: brightness(1.08)`)\n\nSix new CSS vars on :root:\n- `--cb-search-result-hover-bg`\n- `--cb-search-all-results-color`\n- `--cb-search-all-results-hover-bg`\n- `--cb-search-results-eyebrow`\n- `--cb-search-results-heading`\n- `--cb-search-results-submit-hover-bg`\n\n### Fixed\n- The plugin's `.rh-search-result.is-active` / `.rh-search-result:hover`\n  CSS now consumes `--cb-search-result-hover-bg` (was hardcoded\n  `rgba(0, 72, 106, 0.06)` which silently ignored admin config)\n- The plugin's `.rh-search-all` color now consumes\n  `--cb-search-all-results-color` with a sensible fallback chain\n  (was hardcoded `--cb-primary`)\n\n---"
   }
 }
