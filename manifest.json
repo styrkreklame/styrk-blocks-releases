@@ -1,15 +1,15 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.9.3",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.9.3.zip",
+  "version": "0.9.4",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.9.4.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.1",
   "author": "Styrk Reklame AS",
-  "last_updated": "2026-05-18 13:05:10",
+  "last_updated": "2026-05-18 13:23:55",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "### Fixed\n- Overlay anchors (the \"See all results\" link and result-row links)\n  no longer go white-on-white on hover when the host theme has a broad\n  `.cb-site-header a:hover { color: #fff !important; }` rule (a\n  very common pattern). The plugin's wp_head emit now ships dedicated\n  rules for these selectors that include `:hover`/`:focus-visible` and\n  print after theme stylesheets — equal-specificity `!important`\n  loses to declaration order, so the plugin wins.\n- \"See all results\" link hover background and result-row hover\n  background now reliably consume `--cb-search-all-results-hover-bg`\n  and `--cb-search-result-hover-bg` respectively. Admin settings take\n  effect without theme assistance.\n\n---"
+    "changelog": "### Added\n- New admin field **\"See all results\" hover text color**\n  (`overlay_all_results_hover_color`) — sits between the existing link\n  color and hover-background controls. Falls back to the rest colour\n  if unset.\n\n### Fixed\n- **Header nav submenu didn't close when keyboard focus moved past it.**\n  The trigger had a `handleChildKeyDown` that called `setOpen(false)`\n  on Tab, but it was never wired to any element — dead code. The\n  submenu would render until the next mouse interaction. Replaced\n  with a focus-out listener on the trigger wrapper: when keyboard\n  focus leaves the trigger + flyout subtree (via Tab, Shift+Tab,\n  click elsewhere — any focus change), the submenu collapses.\n\n---"
   }
 }
