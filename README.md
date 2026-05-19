@@ -4,6 +4,6 @@ Public release channel for the [styrk-blocks](https://github.com/styrkreklame/st
 
 Do **not** commit by hand — published by `pnpm run release:publish` from the source repo.
 
-- **Current version:** `0.10.1`
+- **Current version:** `0.10.3`
 - **Manifest (client sites read this):** `manifest.json`
 - **Downloads:** one `styrk-blocks-X.Y.Z.zip` per shipped version

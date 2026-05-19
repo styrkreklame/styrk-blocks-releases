@@ -1,15 +1,15 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.1",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.1.zip",
+  "version": "0.10.3",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.3.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.1",
   "author": "Styrk Reklame AS",
-  "last_updated": "2026-05-19 10:15:00",
+  "last_updated": "2026-05-19 12:10:33",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "### Fixed\n- Hit-title on the results page went invisible on hover when admin's\n  \"Page accent\" core was a light slug (white/surface). The theme\n  rule double-bound hit-hover and submit-button to the same\n  `--cb-search-results-link-hover` var; admins picking a light\n  accent for the button broke the hover state on hits.\n  Plugin now forces hit-title hover to stay body-text colour\n  (underline alone carries the hover feedback). Submit button\n  remains driven by the accent core.\n\n### Changed\n- \"Page accent\" core renamed to \"Submit button colour\" in the admin UI.\n  Description clarifies it's the brand action colour and that hit\n  hover is no longer derived from it.\n\n---"
+    "changelog": "### Added\n- Subtle accent-coloured radial flare in the top-right of `.site-footer`,\n  mirroring the same effect on dark Split Section blocks. Soft,\n  blurred, low-alpha — reads as ambient lighting, not a shape.\n  Uses the active theme's `--wp--preset--color--accent` so it\n  respects each brand's palette without per-site CSS.\n\n---"
   }
 }
