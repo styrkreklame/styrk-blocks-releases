@@ -1,15 +1,15 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.9.4",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.9.4.zip",
+  "version": "0.9.5",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.9.5.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.1",
   "author": "Styrk Reklame AS",
-  "last_updated": "2026-05-18 13:23:55",
+  "last_updated": "2026-05-19 06:52:31",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "### Added\n- New admin field **\"See all results\" hover text color**\n  (`overlay_all_results_hover_color`) — sits between the existing link\n  color and hover-background controls. Falls back to the rest colour\n  if unset.\n\n### Fixed\n- **Header nav submenu didn't close when keyboard focus moved past it.**\n  The trigger had a `handleChildKeyDown` that called `setOpen(false)`\n  on Tab, but it was never wired to any element — dead code. The\n  submenu would render until the next mouse interaction. Replaced\n  with a focus-out listener on the trigger wrapper: when keyboard\n  focus leaves the trigger + flyout subtree (via Tab, Shift+Tab,\n  click elsewhere — any focus change), the submenu collapses.\n\n---"
+    "changelog": "### Fixed\n- Single-project page: \"Beskrivelse\" eyebrow and meta-strip values\n  (Kategori/Sted/År/Omfang/Kunde) were rendering invisible on themes\n  where a broad `color: inherit` / cream rule cascaded over them on a\n  light body bg. Plugin now ships a visibility floor that pins the\n  eyebrow + dt labels to `--wp--preset--color--accent` and dd values\n  to `--wp--preset--color--primary` via `!important`. Same priority-100\n  cascade trick used elsewhere — wins over equal-specificity theme\n  rules without needing a theme update.\n\n### Caveats\n- These elements are still NOT admin-customi"
   }
 }
