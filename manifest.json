@@ -1,15 +1,15 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.0",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.0.zip",
+  "version": "0.10.1",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.1.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.1",
   "author": "Styrk Reklame AS",
-  "last_updated": "2026-05-19 09:06:08",
+  "last_updated": "2026-05-19 10:15:00",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "### Changed — Settings → Search reduced from 23 controls to 7 cores\n\nAdmin UI now exposes 7 swatch pickers. Everything else is auto-derived\nat render time. Less rope, less overwhelm.\n\n**Overlay (4 cores):**\n- Panel background\n- Panel text *(drives muted text, placeholder, icons, \"See all results\" link)*\n- Brand accent *(drives result-row hover, close-button hover, \"See all results\" hover bg — all as low-alpha tints)*\n- Backdrop colour + opacity slider\n\n**Results page (3 cores):**\n- Heading *(drives heading + eyebrow)*\n- Body text *(drives result titles, excerpts, empty-state copy, input text, input border, muted helpers — opacity-derived where needed)*\n- Page accent *(drives submit button, hit-title hover, submit-button hover (auto-darkened), submit text auto-contrasts)*\n\n### Backwards compatibility\n- All 23 underlying DB keys are preserved. The 16 derived keys still\n  exist as overrides in the option store; if you previously saved an\n  explicit value for one of them via pre-v0.10 admin, that value is\n  still respected by the CSS-var emitter. The cores only fill in\n  EMPTY/unset derived keys.\n- The sanitiser now preserves existing saved values for keys not in\n  the submitted form (the 16 hidden fields) so saving the simplified\n  form doesn't reset your legacy per-state overrides.\n- No data migration. Just a UI reduction.\n\n---"
+    "changelog": "### Fixed\n- Hit-title on the results page went invisible on hover when admin's\n  \"Page accent\" core was a light slug (white/surface). The theme\n  rule double-bound hit-hover and submit-button to the same\n  `--cb-search-results-link-hover` var; admins picking a light\n  accent for the button broke the hover state on hits.\n  Plugin now forces hit-title hover to stay body-text colour\n  (underline alone carries the hover feedback). Submit button\n  remains driven by the accent core.\n\n### Changed\n- \"Page accent\" core renamed to \"Submit button colour\" in the admin UI.\n  Description clarifies it's the brand action colour and that hit\n  hover is no longer derived from it.\n\n---"
   }
 }
