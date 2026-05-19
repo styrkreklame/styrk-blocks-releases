@@ -1,15 +1,15 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.9.5",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.9.5.zip",
+  "version": "0.9.6",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.9.6.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.1",
   "author": "Styrk Reklame AS",
-  "last_updated": "2026-05-19 06:52:31",
+  "last_updated": "2026-05-19 08:33:21",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "### Fixed\n- Single-project page: \"Beskrivelse\" eyebrow and meta-strip values\n  (Kategori/Sted/År/Omfang/Kunde) were rendering invisible on themes\n  where a broad `color: inherit` / cream rule cascaded over them on a\n  light body bg. Plugin now ships a visibility floor that pins the\n  eyebrow + dt labels to `--wp--preset--color--accent` and dd values\n  to `--wp--preset--color--primary` via `!important`. Same priority-100\n  cascade trick used elsewhere — wins over equal-specificity theme\n  rules without needing a theme update.\n\n### Caveats\n- These elements are still NOT admin-customi"
+    "changelog": "### Fixed\n- **\"Se alle treff\" hover went white-on-light when the active theme had\n  a `.rh-search-overlay .rh-search-all` rule.** Plugin's wp_head emit\n  used single-class selectors (specificity 0,1,0). Theme had two-class\n  selectors (0,2,0). Even with `!important` + priority-100 cascade,\n  theme won on specificity. Plugin selectors now prefix with\n  `.rh-search-overlay` to match.\n\n### Changed\n- **Settings → Search admin page is collapsible.** Each section is\n  now a `<details>` card; color-heavy sections collapse by default.\n  Less wall, more scannable. Swatch chips slightly smaller (28×28).\n  Holding action until the v0.10.0 redesign reduces the 23 controls\n  down to ~7 cores with a live preview.\n\n---"
   }
 }
