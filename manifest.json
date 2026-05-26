@@ -1,15 +1,15 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.3",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.3.zip",
+  "version": "0.10.4",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.4.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.1",
   "author": "Styrk Reklame AS",
-  "last_updated": "2026-05-19 12:10:33",
+  "last_updated": "2026-05-26 08:02:31",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "### Added\n- Subtle accent-coloured radial flare in the top-right of `.site-footer`,\n  mirroring the same effect on dark Split Section blocks. Soft,\n  blurred, low-alpha — reads as ambient lighting, not a shape.\n  Uses the active theme's `--wp--preset--color--accent` so it\n  respects each brand's palette without per-site CSS.\n\n---"
+    "changelog": "- fix(types): resolve 12 TS build errors exposed by PR #98\n\n---"
   }
 }
