@@ -1,15 +1,15 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.13",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.13.zip",
+  "version": "0.10.14",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.14.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "last_updated": "2026-06-02 12:27:06",
+  "last_updated": "2026-06-02 14:32:51",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(page-header): rename editor label to 'Sidetittel med brødsmuler'\n\n---"
+    "changelog": "- feat(react-header): content-width + side-padding controls in Settings → Header\n\n---"
   }
 }
