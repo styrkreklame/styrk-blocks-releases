@@ -1,15 +1,15 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.33",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.33.zip",
+  "version": "0.10.34",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.34.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "last_updated": "2026-06-15 09:39:02",
+  "last_updated": "2026-06-15 11:04:04",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat: section bg shapes, hero bg picker, media-grid widths, FP CTA, stats si"
+    "changelog": "- fix(hero): rename 'Bildespill' → 'Bildekarusell'\n\n---"
   }
 }
