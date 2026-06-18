@@ -1,15 +1,15 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.62",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.62.zip",
+  "version": "0.10.63",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.63.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "last_updated": "2026-06-18 10:19:26",
+  "last_updated": "2026-06-18 10:26:28",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(section band): one consistent control chrome; drop duplicate label\n\n---"
+    "changelog": "- fix(section band): bakgrunnsform as a neutral chip; band never overlaps content\n\n---"
   }
 }
