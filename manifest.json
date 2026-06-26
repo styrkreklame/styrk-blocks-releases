@@ -1,15 +1,15 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.111",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.111.zip",
+  "version": "0.10.112",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.112.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "last_updated": "2026-06-26 08:37:12",
+  "last_updated": "2026-06-26 08:43:18",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(search): pill + card radius and pill text/bg colour controls in Settings → Search\n\n---"
+    "changelog": "- fix(dnd): drag-reorder no longer hijacks RangeControl sliders (stuck-on-hover)\n\n---"
   }
 }
