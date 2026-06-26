@@ -1,15 +1,15 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.115",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.115.zip",
+  "version": "0.10.116",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.116.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "last_updated": "2026-06-26 11:06:00",
+  "last_updated": "2026-06-26 11:30:46",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(testimonial): clearing SECTION BACKGROUND now actually clears it; quote can't clip in narrow columns\n\n---"
+    "changelog": "- feat(posts): [featured_caption] shortcode — caption under the post featured image\n\n---"
   }
 }
