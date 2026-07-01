@@ -1,15 +1,15 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.121",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.121.zip",
+  "version": "0.10.122",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.122.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "last_updated": "2026-07-01 08:12:59",
+  "last_updated": "2026-07-01 08:19:57",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(editor): section-controls band no longer clipped by `overflow:hidden` (was breaking out to 100vw); employee-grid settings now readable on the dark band and evenly stacked (removed the bespoke white panel + centred cap)\n\n---"
+    "changelog": "- fix(layout): single shared content width (`--cb-content-max`, driven by the header's global \"Content width\" setting) now feeds the header, footer, contact block, page-auto-hero and every block rail — so they all line up instead of contact bleeding to 1440, footer capping at 1200 and blocks split 1280/1440. Keeps the prior responsive `--cb-rail` side-gutter unification.\n\n---"
   }
 }
