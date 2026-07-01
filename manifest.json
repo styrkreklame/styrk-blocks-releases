@@ -1,15 +1,15 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.125",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.125.zip",
+  "version": "0.10.126",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.126.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "last_updated": "2026-07-01 08:34:35",
+  "last_updated": "2026-07-01 08:44:02",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(contact-section): the Radius and Column-gap band controls were pill-shaped (border-radius 999px) while every other control chip is a rounded rectangle — made them match the standard `.cb-feature-card__swatch` chip (8px, 1px border) so the whole options band reads uniformly.\n\n---"
+    "changelog": "- feat(blocks): HTML-anchor (id) field rolled out to 15 more section blocks — aktuelt, call-card, cta-band, employee-card, employee-grid, faq-accordion, featured-projects, logo-strip, media-grid, process, services-selector, testimonial, testimonials, video-reels, video-section. Set an id in the block's Advanced panel and link a menu/button to `#that-id`. (Emitted via the existing central `cb_apply_block_anchor` render filter.)\n\n---"
   }
 }
