@@ -1,15 +1,15 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.123",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.123.zip",
+  "version": "0.10.124",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.124.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "last_updated": "2026-07-01 08:21:50",
+  "last_updated": "2026-07-01 08:30:19",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(employee-card): single card background is now optional (transparent with no border/shadow when unset, matching the employee-grid card); role rendered as the same teal pill the grid uses. Left/center/right card alignment already available via the in-canvas control.\n\n---"
+    "changelog": "- feat(split-section): clicking a section image now opens it in the shared lightbox (prev/next, keyboard, focus-trap) — the same viewer the media-grid uses, extracted into a reusable `[data-cb-lightbox]` handler. Image hover is smoother (gentler ease, honest"
   }
 }
