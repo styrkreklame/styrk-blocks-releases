@@ -1,15 +1,15 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.129",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.129.zip",
+  "version": "0.10.130",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.130.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "last_updated": "2026-07-01 10:14:45",
+  "last_updated": "2026-07-01 13:13:36",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(hero): typography controls for the subtext and ingress. Subtext gets font-si"
+    "changelog": "- fix(hero): the subtext/ingress \"Aa\" typography popover used cramped, low-contrast segmented toggles (7 si"
   }
 }
