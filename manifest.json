@@ -1,15 +1,15 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.127",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.127.zip",
+  "version": "0.10.128",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.128.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "last_updated": "2026-07-01 08:49:19",
+  "last_updated": "2026-07-01 08:58:05",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(contact-section): optional divider between the header and the two columns — toggle it on in-canvas (+ skillelinje), with colour and 1–6px thickness controls, to mark the heading as its own section. Off by default; existing sections unchanged.\n\n---"
+    "changelog": "- fix(employee-card): the occupation/role pill rendered unstyled because the pill CSS was scoped to `.cb-employee-card` and the single card uses `.cb-employee-card-compact` — broadened the selector so the teal pill shows. Added the missing pill controls (Tittel-tekst colour, Tittel-BG, Pille-radius) matching the employee-grid, emitted the role styling on the pill, and renamed the card text control \"Tekst\" → \"Navn\" to clarify it sets the name colour.\n\n---"
   }
 }
