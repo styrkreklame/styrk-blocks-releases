@@ -1,15 +1,15 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.132",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.132.zip",
+  "version": "0.10.133",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.133.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "last_updated": "2026-07-02 06:21:45",
+  "last_updated": "2026-07-02 06:33:06",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(employee-card): the email/phone contact-link text ignored the card text colour (hard-coded `.text-secondary`), so it stayed teal on the front end even when a colour was set. The links now honour the card text colour; the control is renamed \"Tekst\" since it colours the name AND the contact info.\n\n---"
+    "changelog": "- fix(rich-text-section): the new \"Skrift\" font control showed its label while the si"
   }
 }
