@@ -1,15 +1,15 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.145",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.145.zip",
+  "version": "0.10.146",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.146.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "last_updated": "2026-07-10 12:46:14",
+  "last_updated": "2026-07-13 10:26:30",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(contact-section): \"Få veibeskrivelse\" had no control, so it could never be turned off\n\n---"
+    "changelog": "- fix(security): three stored XSS + blocking CI gates (visually inert — safe during free"
   }
 }
