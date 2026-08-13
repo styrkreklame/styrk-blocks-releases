@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.161",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.161.zip",
+  "version": "0.10.162",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.162.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "3bab96d9f54bc69d2e5eb8a48e3f6d046cd39ac792efd923a8b8542db18d6afb",
+  "sha256": "9659b4fa694abe7c508a62ec0307ffa227fac25eb40e1973851734554e1dd003",
   "signature_alg": "ed25519",
-  "signature": "bAnpWcAYhdrSq8Y/w/h1FAAXoXdhHAQfbq1JYhdiaF/WckaIGsegD2bX4Nx+66yHvLvgPbVJ87CsA24qwXICAg==",
-  "last_updated": "2026-08-13 08:34:45",
+  "signature": "MDxONlFph7DGIbx/iyki3/WYOZ9oCuZEz6exe2A8SvF64urrKJVRi4sG1f7JlUni72GZi/9gHolgsFkQN4vgCQ==",
+  "last_updated": "2026-08-13 08:46:27",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(hero): add 1/3 and 2/3 ingress widths\n\n---"
+    "changelog": "- fix(collection): equal-si"
   }
 }
