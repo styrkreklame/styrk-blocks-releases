@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.162",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.162.zip",
+  "version": "0.10.163",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.163.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "9659b4fa694abe7c508a62ec0307ffa227fac25eb40e1973851734554e1dd003",
+  "sha256": "517e6889c96c9151d35d9c07d2524e822c0b1740c25eebe2205775ddd400f785",
   "signature_alg": "ed25519",
-  "signature": "MDxONlFph7DGIbx/iyki3/WYOZ9oCuZEz6exe2A8SvF64urrKJVRi4sG1f7JlUni72GZi/9gHolgsFkQN4vgCQ==",
-  "last_updated": "2026-08-13 08:46:27",
+  "signature": "lC2rI8LS5lY5N3RXMIn9wt6av9Izbn2tZqW8H6SazAuJrfEZ1HWOMGh5vbCbWdGG5d9+NFM/ZPwAWtvLpuyhBg==",
+  "last_updated": "2026-08-13 08:55:42",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(collection): equal-si"
+    "changelog": "- fix(updater): stop rejecting good updates over a URL string mismatch\n\n---"
   }
 }
