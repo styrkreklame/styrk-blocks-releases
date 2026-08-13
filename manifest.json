@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.174",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.174.zip",
+  "version": "0.10.175",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.175.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "151dde7e5f0e680829c1012ce5ace36cbc2e1241345b515a7f7c4f02c7431cf9",
+  "sha256": "4d9f6fd11784ff9e23767914899f11566a0e3aac7be4cfde7eb259a30c96c511",
   "signature_alg": "ed25519",
-  "signature": "f/sWB7rUBOFlbVdlzIUoXUyjZtUkH8belFVF9mk5PuuulSx4oTUwFwvvTPw0AQWXv/G1+a8j3Q6m6qfPhg1rAg==",
-  "last_updated": "2026-08-13 11:39:30",
+  "signature": "kl/ziHFuSpeMG1gOyCR8MFfMHRfMRJ0euNA1RhjzGxPnrFPdroC90vJdu815XfWfN/gA6wnUkEbi45/066h5Cg==",
+  "last_updated": "2026-08-13 11:51:16",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(contact): map as the section base, one rhythm across both columns\n\n---"
+    "changelog": "- feat(contact): map + submit radius controls, readable editor fields\n\n---"
   }
 }
