@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.156",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.156.zip",
+  "version": "0.10.157",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.157.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "3d58e1d854cea7367273cb41b3cc0c765d8a97196f8dc1992e456a2853d23880",
+  "sha256": "b5cfccdad781ee5c4464071c1968bb03f587acd548227b79c703332f386a7301",
   "signature_alg": "ed25519",
-  "signature": "M5rXGEIX1yyf0ukvWMMhesH4QO/eOVWmgl1joSmGJUIgN+7yueu5i9aLp1xYZAD1rO6D2pqKRTpMuz768W7TCw==",
-  "last_updated": "2026-08-13 07:35:28",
+  "signature": "vUjIvlawa+rMAJ/614T7oWq92WQMMCm1/QjyoacKEaXAAr/EOHnc5GZErgTzSSz76KvEKNOjDVC1Dki8fF8ABg==",
+  "last_updated": "2026-08-13 07:39:40",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(theme,css): stop boxing full-bleed sections, stop hardcoding the display face\n\n---"
+    "changelog": "- chore(design-system): sync tokens to 2.0 — three tiers, no brand in the shared layer\n\n---"
   }
 }
