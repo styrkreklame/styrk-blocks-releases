@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.155",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.155.zip",
+  "version": "0.10.156",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.156.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "0868c29af2691a0604523a665098447cb1890c44b5932e48538533cc4131261c",
+  "sha256": "3d58e1d854cea7367273cb41b3cc0c765d8a97196f8dc1992e456a2853d23880",
   "signature_alg": "ed25519",
-  "signature": "1nljk3BdxsreRVkkdMiqq2NccDdm4wPyq2KRA3knmLL0zMJilb6JGi9zGKQZ68z2jT0zeo+IHSR5A8ruATu5DA==",
-  "last_updated": "2026-08-13 07:31:13",
+  "signature": "M5rXGEIX1yyf0ukvWMMhesH4QO/eOVWmgl1joSmGJUIgN+7yueu5i9aLp1xYZAD1rO6D2pqKRTpMuz768W7TCw==",
+  "last_updated": "2026-08-13 07:35:28",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(gates): inject theme.json font families, not just the palette\n\n---"
+    "changelog": "- fix(theme,css): stop boxing full-bleed sections, stop hardcoding the display face\n\n---"
   }
 }
