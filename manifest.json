@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.170",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.170.zip",
+  "version": "0.10.171",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.171.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "d43b09d34870c99e3231e4e59f7db5f3a5fec2b89328be9ab92df321480787ec",
+  "sha256": "f8739232ed55d4c7c058f95f26b861f64ef46c1611577c18f0436a18443d42df",
   "signature_alg": "ed25519",
-  "signature": "XkeMp3O4BFZTyhvuVJKHlri5+03GIK12yyzwYMlL9PIrVWAWQWVkdPBRdX4A0+L6T3QizUyq0FRvDGx5DRrBBQ==",
-  "last_updated": "2026-08-13 10:24:46",
+  "signature": "5ur4Z6GMbYObNynZXl6pTzyyGsJmDljqPoBFA+uOjQ2COPn/RxZ4k58dYsiLn2zMHDHpVVaNUxcZ/pOyBaZmDw==",
+  "last_updated": "2026-08-13 10:31:03",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- perf(css): stop shipping wp-admin CSS to visitors\n\n---"
+    "changelog": "- feat(collection): category filter + card colour controls\n\n---"
   }
 }
