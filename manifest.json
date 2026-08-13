@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.172",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.172.zip",
+  "version": "0.10.173",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.173.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "580ebdddd37f4c588b1d4d01c72b85380e3b403aad3120b6439d6eb03528aac9",
+  "sha256": "99b21f8a140d53297c74e7b28400292e72328321b00fa30754ee86c610751890",
   "signature_alg": "ed25519",
-  "signature": "1HKNZNOyRlPo7AngYkHIAt6A/JsUui0dNtSjQMA5km91NFnysnJH7zlRIwq6fuicT4AxX93ReG+NnLLyKUKyDQ==",
-  "last_updated": "2026-08-13 10:57:06",
+  "signature": "rap84G7maq8nWAAjdEj+xX7IT9eOWudEFL8+Kg/35y1euQsykSrJFWC6Jhl1ZSwTq0YmiUotff0NFIrJgRDzDA==",
+  "last_updated": "2026-08-13 11:08:05",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix: editor CSS into the canvas, contact toggle spacing, collection filter actually hides\n\n---"
+    "changelog": "- fix(footer): badges si"
   }
 }
