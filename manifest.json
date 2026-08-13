@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.171",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.171.zip",
+  "version": "0.10.172",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.172.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "f8739232ed55d4c7c058f95f26b861f64ef46c1611577c18f0436a18443d42df",
+  "sha256": "580ebdddd37f4c588b1d4d01c72b85380e3b403aad3120b6439d6eb03528aac9",
   "signature_alg": "ed25519",
-  "signature": "5ur4Z6GMbYObNynZXl6pTzyyGsJmDljqPoBFA+uOjQ2COPn/RxZ4k58dYsiLn2zMHDHpVVaNUxcZ/pOyBaZmDw==",
-  "last_updated": "2026-08-13 10:31:03",
+  "signature": "1HKNZNOyRlPo7AngYkHIAt6A/JsUui0dNtSjQMA5km91NFnysnJH7zlRIwq6fuicT4AxX93ReG+NnLLyKUKyDQ==",
+  "last_updated": "2026-08-13 10:57:06",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(collection): category filter + card colour controls\n\n---"
+    "changelog": "- fix: editor CSS into the canvas, contact toggle spacing, collection filter actually hides\n\n---"
   }
 }
