@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.175",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.175.zip",
+  "version": "0.10.176",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.176.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "4d9f6fd11784ff9e23767914899f11566a0e3aac7be4cfde7eb259a30c96c511",
+  "sha256": "c106ba34072ca1c0b3e6322fa31d33b6f1645fb2490874801207dcb1084c2b82",
   "signature_alg": "ed25519",
-  "signature": "kl/ziHFuSpeMG1gOyCR8MFfMHRfMRJ0euNA1RhjzGxPnrFPdroC90vJdu815XfWfN/gA6wnUkEbi45/066h5Cg==",
-  "last_updated": "2026-08-13 11:51:16",
+  "signature": "N+jaGHINc1FonBBOqTiFQFHHMZgBK+HzSHFGqt/g9HiiYMJ35p5REGoU7EE0x2ZtErKrRR8g3FXxGeN3MlYIAA==",
+  "last_updated": "2026-08-13 12:04:59",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(contact): map + submit radius controls, readable editor fields\n\n---"
+    "changelog": "- fix(contact): make the map radius visible by rounding the iframe\n\n---"
   }
 }
