@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.159",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.159.zip",
+  "version": "0.10.160",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.160.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "4c970abc2d2b6eb0b70e7dfb946faef89f6f3e365db81dc93a49fdf57cd2d008",
+  "sha256": "3597b9ee4d4e271874287b967c1ff9fe08e48c4eaa86d98996662d4773ed7c94",
   "signature_alg": "ed25519",
-  "signature": "KEC0UA/cUrXI0uPwzXopOwd32s09eCFI+ZhM7zoKlzLXnEZZzjMzhE0g+yD6HwgFNJOzGttCKFu2aSWKCaR5BA==",
-  "last_updated": "2026-08-13 08:15:39",
+  "signature": "R1yxv830Vgq7nlcLDsF1JKdc/UztSgbiekC/wWn5/fLQ1UbB2WeLeyFa7Olx/QIWki67yMHTDDkclhCnWnyHDA==",
+  "last_updated": "2026-08-13 08:27:10",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(css): give the project nav button a contrast-safe fill\n\n---"
+    "changelog": "- feat(stats-row): make the card frame optional and colourable\n\n---"
   }
 }
