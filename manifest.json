@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.165",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.165.zip",
+  "version": "0.10.166",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.166.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "15d8ee13ef63dddf6385dd8a3cc8fe85a233a69032aa10b1e6f8e36bfb5d80a4",
+  "sha256": "483b9814e299d2154e3c73ca65af378d2be95ca3736dc79a749d0f56cd295754",
   "signature_alg": "ed25519",
-  "signature": "Y6X2bDk7fUfS2tRAP0PNac4tkYaBnovZMbTAD3/tWJZaXwa/koAPsV93f4D4pTbzaThb6E11W3Rs1fnNMo5JDw==",
-  "last_updated": "2026-08-13 09:06:02",
+  "signature": "nFTR0vi0Gs4O00nnkcUEf9sJptzPBUer8AiNM42eyx02JACoS3VhJ07lVoMmXvlZlNVFF085w3BN1SRPNSLxDg==",
+  "last_updated": "2026-08-13 09:32:47",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(footer): optional external link per certification badge\n\n---"
+    "changelog": "- feat(page-auto-hero): choose where the page title sits\n\n---"
   }
 }
