@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.178",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.178.zip",
+  "version": "0.10.179",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.179.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "dd40efdb06521eeb720514316e5a179e688a52f005297d9f1c04fac30e2e583b",
+  "sha256": "6e13a91b0d88cd926e9fd590f1e01b613c1e5e1a9370c479342b349b1a6f7929",
   "signature_alg": "ed25519",
-  "signature": "bxMoa8DUokCy0GH91pDL9Q8lSHDIh5wl3wSLPcYC5bNw0iHrd5lhW4IaEBtc5m5f6p+YAHJgu9U/VK0wTTifBw==",
-  "last_updated": "2026-08-14 05:32:31",
+  "signature": "sqzHDvPDOzIYireU7JBiTwusIUwAU1jFu7estXxjWXloP6CFe/hX/0rjnBTFsDyLszEkYFpsbW7OTxscBOezDg==",
+  "last_updated": "2026-08-14 07:05:19",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(contact): put the radius chips where they can actually be seen\n\n---"
+    "changelog": "- feat(footer): credit uses the Styrk icon + real text, not the wordmark image\n\n---"
   }
 }
