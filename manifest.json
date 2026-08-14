@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.181",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.181.zip",
+  "version": "0.10.182",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.182.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "5dfb2627eee229a22aa51af719a9b15bfb29b771f285b9ee97fc48da05317101",
+  "sha256": "b26a992fc53d4e6797b5013176f48b3a9a82193c1a1bcc19702ec960e9606e40",
   "signature_alg": "ed25519",
-  "signature": "YjcHWxdxyuNDFbGUImcw97p74oXunbRXMzF2EVPuo2pHe9trQwxsl5iKkxbNo4rDbcMqym6rspwEpBBS0ckRDw==",
-  "last_updated": "2026-08-14 07:30:09",
+  "signature": "Li1hztm8QvWOuysjjmpvtQgD8ZkuieAvA9L6lHpieiMIQ6yygC2ZB0CdjdoiwXi52tRaiNY6ETBFvEjnWkL+Bg==",
+  "last_updated": "2026-08-14 08:16:19",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(contact,employee): separate each person; phone first; catalog icons\n\n---"
+    "changelog": "- fix(hero): detail icons inherit the text they label\n\n---"
   }
 }
