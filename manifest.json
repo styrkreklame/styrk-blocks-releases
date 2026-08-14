@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.184",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.184.zip",
+  "version": "0.10.185",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.185.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "6671475ca1a3903c04114dd267b5ecc342bd9850210298fa65ea844a97790758",
+  "sha256": "913bac2d0f4fee5a427b1169c3a31f42bcc49eb1fcbe280b54b7e7845ec5f1af",
   "signature_alg": "ed25519",
-  "signature": "FIlm/xF4XV7XAZin2kIk79CHCabOpNQclSG9ARkVE7CHHTM6Y3ICO/H8DJrJ+t/F4eAOB3GTUvfx55J8HjayDg==",
-  "last_updated": "2026-08-14 08:26:41",
+  "signature": "xQ7w+Q7LTlv6TTRRg197BeUX/Vt/CPbjIwKuKW3ss6XPVZrq1K9pReXlzaEmj0cwg7/4Magpvy2dlTbC9Rr8BQ==",
+  "last_updated": "2026-08-14 08:34:36",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(employee): stop the card trigger growing so contact rows align\n\n---"
+    "changelog": "- fix(employee): contact panel fills the card so all cards match\n\n---"
   }
 }
