@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.179",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.179.zip",
+  "version": "0.10.180",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.180.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "6e13a91b0d88cd926e9fd590f1e01b613c1e5e1a9370c479342b349b1a6f7929",
+  "sha256": "e8ce2cd0bd2e36029f1e69a163029adf87ef193ff73902ff37f3dc1fb3f8a290",
   "signature_alg": "ed25519",
-  "signature": "sqzHDvPDOzIYireU7JBiTwusIUwAU1jFu7estXxjWXloP6CFe/hX/0rjnBTFsDyLszEkYFpsbW7OTxscBOezDg==",
-  "last_updated": "2026-08-14 07:05:19",
+  "signature": "O7KuH2JNzaqRICIJfN5PigCXiUS1ftA3M6A4y279HUTypOVQlo7iUTNmTqiN7D2zYPQWMTT87TPjVX+IfeyoDQ==",
+  "last_updated": "2026-08-14 07:13:40",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(footer): credit uses the Styrk icon + real text, not the wordmark image\n\n---"
+    "changelog": "- fix(employee,contact): first-line icon alignment + separate the company group\n\n---"
   }
 }
