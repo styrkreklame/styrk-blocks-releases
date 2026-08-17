@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.186",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.186.zip",
+  "version": "0.10.187",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.187.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "c219627702ed5b3d584a1ca6fa8716bdb6d9dc207e0158a0c4b47f2a35db7bdb",
+  "sha256": "28b5237664dff3526b3fc968295d95e8d1407b1ff26aebe77af65d656d610269",
   "signature_alg": "ed25519",
-  "signature": "xq1gKiF1sgK3ssCUIJxqbI1qTXeZp8xXaHdtDukoWCwYckBOOWFgPSlf2wEAF2WG8r3JnYLTe9yaEnd41u8vAA==",
-  "last_updated": "2026-08-17 06:11:00",
+  "signature": "r6NsP15F8qf5mRqI352HH9fy+blcRJ8HMqWW84E/IjyNl9IHbVwKoMQwoC5h+u+iwnwzh7cMjRaeZgtduvgyCA==",
+  "last_updated": "2026-08-17 06:26:07",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(footer): make the credits mark large enough to read\n\n---"
+    "changelog": "- feat(footer): optional link on the credit line\n\n---"
   }
 }
