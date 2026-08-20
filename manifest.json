@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.191",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.191.zip",
+  "version": "0.10.192",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.192.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "272fe3cd0bf5027a3b990356f8a049360215f3fee5850a471fff0a9b118d6815",
+  "sha256": "66dfc3a85b2bc4ceb20cf69f7d6dc90787c16529b7e82655cf92c226b2b2352f",
   "signature_alg": "ed25519",
-  "signature": "TUTsBqoYQRO10KpmINfbXil1raow6u8NigbRTjBxG0pgdhSHyZIRpYCtSDbE+qA7vavYo5dnrg6NboLusKKsBQ==",
-  "last_updated": "2026-08-20 12:49:09",
+  "signature": "Wj4XERI6v63lwVxr5Kww5frVUPLGkpRofEDDvag6+TJiY7geyI/pJPhdlJQTFwpgxMve+uq3uYs8AayOwPPQAw==",
+  "last_updated": "2026-08-20 12:59:47",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(hero): full-bleed section, capped media — no white bars, no blow-up\n\n---"
+    "changelog": "- chore: add a PR template that keeps the issue tracker honest\n\n---"
   }
 }
