@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.188",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.188.zip",
+  "version": "0.10.189",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.189.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "2d404c0ac1524a6efc203bfd7367b5d55d848d8937d217e024e3d48be5cee211",
+  "sha256": "8e498e61fa0b6daa254bfe92775fecc0b8631a802ca6eb6b6cb2160f2d4fd8e3",
   "signature_alg": "ed25519",
-  "signature": "M5h3gTZF3fwpAR3ko8XCTtv6l6uQJRHdOf2osgQwvhbJpFp+vqMGhThq8dne0bdpWauxQD45dpw448vRZEypAw==",
-  "last_updated": "2026-08-17 11:39:08",
+  "signature": "Ms1K8yihHIJLHoC0j/YNaJJbsZ2trT+JOqrGrFKnlcPUGT8KHL5K1B1JPUcO1p/s6K3/uS1mP4jCo5E3u2MlCQ==",
+  "last_updated": "2026-08-20 08:15:02",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(footer): make every footer value editable from Settings → Footer\n\n---"
+    "changelog": "- fix(security): close XSS, direct-access, CSS-injection and meta-auth holes\n\n---"
   }
 }
