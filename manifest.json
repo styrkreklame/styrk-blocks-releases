@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.190",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.190.zip",
+  "version": "0.10.191",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.191.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "2157897ae8a6d1c5531ebcd3179e1c98bae08a61a0ebcc17900e12d6ea763d01",
+  "sha256": "272fe3cd0bf5027a3b990356f8a049360215f3fee5850a471fff0a9b118d6815",
   "signature_alg": "ed25519",
-  "signature": "rrZLOdz8102zN97yrSDchdwdAmaJ9yPWMgeDW+2NSlRRSRj6pv3g1kn5CNaR812YSqIn/FrLnFOtGmRFmWREBQ==",
-  "last_updated": "2026-08-20 12:44:04",
+  "signature": "TUTsBqoYQRO10KpmINfbXil1raow6u8NigbRTjBxG0pgdhSHyZIRpYCtSDbE+qA7vavYo5dnrg6NboLusKKsBQ==",
+  "last_updated": "2026-08-20 12:49:09",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- perf(css): stop shipping 101 KB of source comments to every visitor\n\n---"
+    "changelog": "- fix(hero): full-bleed section, capped media — no white bars, no blow-up\n\n---"
   }
 }
