@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.193",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.193.zip",
+  "version": "0.10.194",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.194.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "9429166160bb4795a16bfa1881f95ffb6b1eb31b6a66d0330f74a0174c10dec2",
+  "sha256": "951d02b69e67ef0ee4e68047fff8dbb0dba242d4b91196c24942dbd32f969df4",
   "signature_alg": "ed25519",
-  "signature": "6tThxLyDJdPsgtVSKNl/kwo1xQedO7suSM+xx0pU2mbJVWOhX1G/YPlxwhwcQLV5/elenIfK8Hdt+gF9ufS+Bw==",
-  "last_updated": "2026-08-21 08:52:39",
+  "signature": "U1V1iIFOCwyIaCjK/FgqB0svqSgQHhwfjrH+/SOiNnLXwr0VqKwYLpheAEGL/ZcaBsdfrPJFoQ0tV20zA9dnDA==",
+  "last_updated": "2026-08-21 09:11:12",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(media-grid): only pad the grid when it is full-bleed\n\n---"
+    "changelog": "- fix(media-grid): key the padding on layout, not on .alignfull\n\n---"
   }
 }
