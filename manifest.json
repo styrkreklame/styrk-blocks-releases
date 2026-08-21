@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.192",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.192.zip",
+  "version": "0.10.193",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.193.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "66dfc3a85b2bc4ceb20cf69f7d6dc90787c16529b7e82655cf92c226b2b2352f",
+  "sha256": "9429166160bb4795a16bfa1881f95ffb6b1eb31b6a66d0330f74a0174c10dec2",
   "signature_alg": "ed25519",
-  "signature": "Wj4XERI6v63lwVxr5Kww5frVUPLGkpRofEDDvag6+TJiY7geyI/pJPhdlJQTFwpgxMve+uq3uYs8AayOwPPQAw==",
-  "last_updated": "2026-08-20 12:59:47",
+  "signature": "6tThxLyDJdPsgtVSKNl/kwo1xQedO7suSM+xx0pU2mbJVWOhX1G/YPlxwhwcQLV5/elenIfK8Hdt+gF9ufS+Bw==",
+  "last_updated": "2026-08-21 08:52:39",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- chore: add a PR template that keeps the issue tracker honest\n\n---"
+    "changelog": "- fix(media-grid): only pad the grid when it is full-bleed\n\n---"
   }
 }
