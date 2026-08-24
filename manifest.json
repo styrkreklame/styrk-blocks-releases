@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.195",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.195.zip",
+  "version": "0.10.196",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.196.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "f63d2df7d5ca70dc6c6885019bcffd540ecca30d8a41c6eb2ce0cb20e1eca95b",
+  "sha256": "6f2166c1a8501a5a827075c4f788c7bc458eb2eba6110c4e56d3d75ceca2c3ab",
   "signature_alg": "ed25519",
-  "signature": "KtTnCOYIaFUHitpmw6O7/r5LNrl89eN4nm2FPVhjIZk2dNkjblhVQ3pO+cBiB8KcagrR1O/QFzN5tt5FHpaTBA==",
-  "last_updated": "2026-08-21 12:19:31",
+  "signature": "snM+0WOTAUH78jeuqF/8XD1A6RlMVna6+spYR6CyfcMq2Bx08b/9OM5bvQ8pZmS74iyQIUixI5Ml55JkML79AQ==",
+  "last_updated": "2026-08-24 08:15:16",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(split-section): controls for how the photo fits its slot\n\n---"
+    "changelog": "- fix(employee-grid): even out the card contact panel\n\n---"
   }
 }
