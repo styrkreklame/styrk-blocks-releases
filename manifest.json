@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.196",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.196.zip",
+  "version": "0.10.197",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.197.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "6f2166c1a8501a5a827075c4f788c7bc458eb2eba6110c4e56d3d75ceca2c3ab",
+  "sha256": "77029b94e9f12e3fa02ca30111808511372528ad521ab364e72e19dabeeea7d0",
   "signature_alg": "ed25519",
-  "signature": "snM+0WOTAUH78jeuqF/8XD1A6RlMVna6+spYR6CyfcMq2Bx08b/9OM5bvQ8pZmS74iyQIUixI5Ml55JkML79AQ==",
-  "last_updated": "2026-08-24 08:15:16",
+  "signature": "hbeGcAAV0i2nSparIsspgpiIuTBnWUnxusXs77jP06XDlwgOd3dmyfYONm2sgWWmgas9g83IDjVPiy0gP/O1Bw==",
+  "last_updated": "2026-08-25 12:56:06",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(employee-grid): even out the card contact panel\n\n---"
+    "changelog": "- feat(footer): opening hours as a first-class contact field\n\n---"
   }
 }
