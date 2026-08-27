@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.199",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.199.zip",
+  "version": "0.10.200",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.200.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "ff5b51caa52c62aaf8250c8687721b32033b3d810f3cc537d48a1b124777144d",
+  "sha256": "2b6238804d2544a33180d5ed777d6b5930b2d1ec8e01552cf2d4df14263804fc",
   "signature_alg": "ed25519",
-  "signature": "80De2r3VraDjSfPLHKYCZAH9HFn9D4gRVHZ+9duhEbtGoavAlmXW1/v4LaowpT+zT6i+K3sIamPkbKF4jxY+Ag==",
-  "last_updated": "2026-08-27 12:29:12",
+  "signature": "1OZqBCgUF5E81WUAHUqPj1rh5nNos0YQ8ZLit798btNO1JqoGnPL/bN3KrfmTNCCcGN8U+SpNQQbhRoBHPC5Dw==",
+  "last_updated": "2026-08-27 12:38:15",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(services-selector): stop the fast-link buttons clipping off the right\n\n---"
+    "changelog": "- fix(split-section): portrait video fills its column on mobile\n\n---"
   }
 }
