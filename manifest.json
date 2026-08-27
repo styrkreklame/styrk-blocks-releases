@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.198",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.198.zip",
+  "version": "0.10.199",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.199.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "1f0a77b8b16bed72d139d6c592f8418c9b99c6aa19945390110ddfb507156fbc",
+  "sha256": "ff5b51caa52c62aaf8250c8687721b32033b3d810f3cc537d48a1b124777144d",
   "signature_alg": "ed25519",
-  "signature": "rYZ+Fx/ptbQncPxZU0WVULSyP7SKLYS2bR17kuFPd9uqZkNLh2XfJn3oAKdyIwS/HllPZs0h9Xwc9Bs+mnG9Aw==",
-  "last_updated": "2026-08-25 13:14:57",
+  "signature": "80De2r3VraDjSfPLHKYCZAH9HFn9D4gRVHZ+9duhEbtGoavAlmXW1/v4LaowpT+zT6i+K3sIamPkbKF4jxY+Ag==",
+  "last_updated": "2026-08-27 12:29:12",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(footer): org number above the opening-hours block, not inside it\n\n---"
+    "changelog": "- fix(services-selector): stop the fast-link buttons clipping off the right\n\n---"
   }
 }
