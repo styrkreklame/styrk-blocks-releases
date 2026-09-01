@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.200",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.200.zip",
+  "version": "0.10.201",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.201.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "2b6238804d2544a33180d5ed777d6b5930b2d1ec8e01552cf2d4df14263804fc",
+  "sha256": "4cc265d53c9c79a06322117047ce9e85cd05ffc5be8fb10c2f841b13f3d07b93",
   "signature_alg": "ed25519",
-  "signature": "1OZqBCgUF5E81WUAHUqPj1rh5nNos0YQ8ZLit798btNO1JqoGnPL/bN3KrfmTNCCcGN8U+SpNQQbhRoBHPC5Dw==",
-  "last_updated": "2026-08-27 12:38:15",
+  "signature": "7zDK5+FzbqY2WGLVM6qQBt3aWENND1kEss9od6ifn48qfX+TrP7t/YNiMkTVAXEDDvusJMaenIF3M0iWONB0AA==",
+  "last_updated": "2026-09-01 12:10:46",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(split-section): portrait video fills its column on mobile\n\n---"
+    "changelog": "- fix(split-section): restore the eyebrow colour pickers\n\n---"
   }
 }
