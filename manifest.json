@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.201",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.201.zip",
+  "version": "0.10.202",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.202.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "4cc265d53c9c79a06322117047ce9e85cd05ffc5be8fb10c2f841b13f3d07b93",
+  "sha256": "e16c3da4167a0c06622f9dfbf4fde918612e9d63a7c54a96b3a70555398377bb",
   "signature_alg": "ed25519",
-  "signature": "7zDK5+FzbqY2WGLVM6qQBt3aWENND1kEss9od6ifn48qfX+TrP7t/YNiMkTVAXEDDvusJMaenIF3M0iWONB0AA==",
-  "last_updated": "2026-09-01 12:10:46",
+  "signature": "GVinV5w1a3jTXqNcoHiqsHOuMviFOo2CW+md6gL3U5yVEu37LqDlnZUmKD6pXK/4c9VRyoTDiJq8sppPLNS7Bg==",
+  "last_updated": "2026-09-01 12:24:16",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(split-section): restore the eyebrow colour pickers\n\n---"
+    "changelog": "- fix(contact-section): even out the two columns\n\n---"
   }
 }
