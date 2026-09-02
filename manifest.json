@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.202",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.202.zip",
+  "version": "0.10.203",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.203.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "e16c3da4167a0c06622f9dfbf4fde918612e9d63a7c54a96b3a70555398377bb",
+  "sha256": "4b6214f5adb39bd639b565b1f1b2b4e27632f26c5d6c31c5458330245fa8b1f7",
   "signature_alg": "ed25519",
-  "signature": "GVinV5w1a3jTXqNcoHiqsHOuMviFOo2CW+md6gL3U5yVEu37LqDlnZUmKD6pXK/4c9VRyoTDiJq8sppPLNS7Bg==",
-  "last_updated": "2026-09-01 12:24:16",
+  "signature": "0B+vL5MzGWPKyoZ/MQE30L9XEA0psfBbF9CeYOa69LQ+LmNV74RimnbITBfBP6VJj+zqSXOok66z9b1Ry3t0Bw==",
+  "last_updated": "2026-09-02 07:36:25",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(contact-section): even out the two columns\n\n---"
+    "changelog": "- fix(featured-projects): stop the card's white bleeding out of the rounded clip\n\n---"
   }
 }
