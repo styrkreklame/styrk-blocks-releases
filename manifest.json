@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.203",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.203.zip",
+  "version": "0.10.204",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.204.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "4b6214f5adb39bd639b565b1f1b2b4e27632f26c5d6c31c5458330245fa8b1f7",
+  "sha256": "6bb0bcedb2bc761cc023bee13efbc5cec3a8a2db3e05e257ec112e79c42f4b5d",
   "signature_alg": "ed25519",
-  "signature": "0B+vL5MzGWPKyoZ/MQE30L9XEA0psfBbF9CeYOa69LQ+LmNV74RimnbITBfBP6VJj+zqSXOok66z9b1Ry3t0Bw==",
-  "last_updated": "2026-09-02 07:36:25",
+  "signature": "7+ptWmI4ZiSe/ho1oQkDv97bUO2SW3aHMIg3lV4wKK6HwlmtZbATWBxM2dhLz3zzQzk5yZ1ZszJGzVpUYvg+Bg==",
+  "last_updated": "2026-09-03 11:30:48",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(featured-projects): stop the card's white bleeding out of the rounded clip\n\n---"
+    "changelog": "- fix(blocks): dark-section defaults, client brand fallbacks, call-card controls\n\n---"
   }
 }
