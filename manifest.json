@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.204",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.204.zip",
+  "version": "0.10.205",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.205.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "6bb0bcedb2bc761cc023bee13efbc5cec3a8a2db3e05e257ec112e79c42f4b5d",
+  "sha256": "2ed00ad5461a52bdbcd22560fbf1b02fa679310f0bf715aeb4a87898b0d848d0",
   "signature_alg": "ed25519",
-  "signature": "7+ptWmI4ZiSe/ho1oQkDv97bUO2SW3aHMIg3lV4wKK6HwlmtZbATWBxM2dhLz3zzQzk5yZ1ZszJGzVpUYvg+Bg==",
-  "last_updated": "2026-09-03 11:30:48",
+  "signature": "QHJ4IdEHQjXj48D+dZOzJQU3/CvR42OpD8BDLtvusoNyTecOiVHM7Irx7cS69lEB+doMWxeaA7er3mF2Na8dCw==",
+  "last_updated": "2026-09-11 10:15:31",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(blocks): dark-section defaults, client brand fallbacks, call-card controls\n\n---"
+    "changelog": "- chore: fjern Viken Regnskap fra designsystemet og bind om til Styrk-paletten\n\n---"
   }
 }
