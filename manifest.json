@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.210",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.210.zip",
+  "version": "0.10.211",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.211.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "f2661c97ac72080bfef01662236c4c1a6d53d50c832f683afcfd3c865af54624",
+  "sha256": "a4188f65c21234cfb86aa559e0ee5970401515524d50a39bf38febf88a94d22f",
   "signature_alg": "ed25519",
-  "signature": "iKS8COaVZ2OkUgGFtRzqJZ9AcRXWxUo5ze0Knh1GWiyfEdx6fGXzRCebLT0H50FAmKWfZWSbXyBNyUnQ3UUSCg==",
-  "last_updated": "2026-09-18 11:06:19",
+  "signature": "H+sIMDkiejOGCcldcwzshJa1jP/VEVTS6g/niFmsqyvkaB9aeLggOSKmXl4VjujrNzsgkEPt3XgkKGMDpcMbBw==",
+  "last_updated": "2026-09-18 11:23:48",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(employee-grid): filterraden vises i editoren, og fargevelgeren hopper ikke lenger\n\n---"
+    "changelog": "- fix(employee-grid): betre namn paa filtergruppa, og eit varsel som ikkje flyttar bandet\n\n---"
   }
 }
