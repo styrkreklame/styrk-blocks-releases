@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.205",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.205.zip",
+  "version": "0.10.206",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.206.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "2ed00ad5461a52bdbcd22560fbf1b02fa679310f0bf715aeb4a87898b0d848d0",
+  "sha256": "8f1ecaaef6c5c1e1a769a7754a487c5df30e068199e3b5c399e3f7edd1f04ae0",
   "signature_alg": "ed25519",
-  "signature": "QHJ4IdEHQjXj48D+dZOzJQU3/CvR42OpD8BDLtvusoNyTecOiVHM7Irx7cS69lEB+doMWxeaA7er3mF2Na8dCw==",
-  "last_updated": "2026-09-11 10:15:31",
+  "signature": "/6aRXdQDEYq98zzM7wqeve1MUQ13lc9kd/7SuQH775uCqfO6Vu7D/ZPaGHRPfChA0xumWVdhMMIi7YNNGizyCQ==",
+  "last_updated": "2026-09-18 08:55:11",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- chore: fjern Viken Regnskap fra designsystemet og bind om til Styrk-paletten\n\n---"
+    "changelog": "- feat(employee-grid): søk/filter, kontroll-API for temaer, og redigering i kortet\n\n---"
   }
 }
