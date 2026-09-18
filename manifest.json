@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.206",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.206.zip",
+  "version": "0.10.207",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.207.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "8f1ecaaef6c5c1e1a769a7754a487c5df30e068199e3b5c399e3f7edd1f04ae0",
+  "sha256": "f50c8b82f5c32f144c40904d3206fb74a079f6b194a1b4cda48da19203db9f1e",
   "signature_alg": "ed25519",
-  "signature": "/6aRXdQDEYq98zzM7wqeve1MUQ13lc9kd/7SuQH775uCqfO6Vu7D/ZPaGHRPfChA0xumWVdhMMIi7YNNGizyCQ==",
-  "last_updated": "2026-09-18 08:55:11",
+  "signature": "rgP6oprNDbzUlkfO8APXPRJtTMGfphe8HCEGLddYRX7V/zpT0BvPtF9a+Mg4naiNR7IwUqAql4wbFh6SOLSTDQ==",
+  "last_updated": "2026-09-18 10:20:46",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(employee-grid): søk/filter, kontroll-API for temaer, og redigering i kortet\n\n---"
+    "changelog": "- feat(employee-grid): colour controls for the department badge\n\n---"
   }
 }
