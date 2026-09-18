@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.213",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.213.zip",
+  "version": "0.10.214",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.214.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "19e86821ec4ca3d50718c53ecb6e22c9d2de56cf23174094ee3ba69977552c5d",
+  "sha256": "a8c7a8d444ad887376dcd064f05a4fd001705d526504cc443c3888f8cd571927",
   "signature_alg": "ed25519",
-  "signature": "zMfbjnAs1qiV63wAmxWlOU1QZmUu8mnAJG6TU8qhROKDHZYlVxxpf9LByX+i1RopNJjnDrrXvEY0ImRzgRpAAA==",
-  "last_updated": "2026-09-18 11:46:02",
+  "signature": "+r2URQjfDe+oNIEa5Zqzko7Lam9zoPm3HD4wOsVuP5hzMyaB2rybh2LswAJ/hA/tvBU+OuYgd0MX1QtADGrmCg==",
+  "last_updated": "2026-09-18 12:20:55",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(employee-grid): mal forma etter at biletet er lasta\n\n---"
+    "changelog": "- Merge pull request #362 from styrkreklame/feat/editor-panel-redesign\n\n---"
   }
 }
