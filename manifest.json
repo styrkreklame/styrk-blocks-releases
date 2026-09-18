@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.212",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.212.zip",
+  "version": "0.10.213",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.213.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "95401ec5070822891617eb2e28a72e962a4ec2ffd5d4159a6c9d3a382d9e1c3c",
+  "sha256": "19e86821ec4ca3d50718c53ecb6e22c9d2de56cf23174094ee3ba69977552c5d",
   "signature_alg": "ed25519",
-  "signature": "We5FXsgJS56xd4miz5TBFKBhsX9HdPvAmZPXoJpOXbnzyddPs3gwDsebpgIoWdM7i80JPRDXwo5BzqdAgMZVCg==",
-  "last_updated": "2026-09-18 11:35:18",
+  "signature": "zMfbjnAs1qiV63wAmxWlOU1QZmUu8mnAJG6TU8qhROKDHZYlVxxpf9LByX+i1RopNJjnDrrXvEY0ImRzgRpAAA==",
+  "last_updated": "2026-09-18 11:46:02",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(employee-grid): bakgrunnsforma glei over skjermen ved filtrering\n\n---"
+    "changelog": "- fix(employee-grid): mal forma etter at biletet er lasta\n\n---"
   }
 }
