@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.208",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.208.zip",
+  "version": "0.10.209",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.209.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "463c4a349018e89cf8a56f099ca93a88c4a61407d5afc757fcad7699f0f71085",
+  "sha256": "bf71cd3cc2ccc7c6a1939a71633a45f71634363ca162688beeb67377fbbea0b7",
   "signature_alg": "ed25519",
-  "signature": "oq9hGhjYvOpQjSoNCT+FieqUE5sALD0lUF+01TV683vVbUyLWCYidI6RFzThKD6Q19teO75FEj2QjABMp7C3Bw==",
-  "last_updated": "2026-09-18 10:34:07",
+  "signature": "HhMmK/8rx0gggEYoMrFFboS1s+iTL+sl0jiZgfsCsn0Hj6IsCajan1upjh2G6eZT5+dnVDDUwvwDEzlDL4UfAw==",
+  "last_updated": "2026-09-18 10:41:44",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(employee-grid): avdelingsfargen virket bare i frontend, og gruppene var ulikt bygd\n\n---"
+    "changelog": "- feat(employee-grid): fargekontroll for avdelingschipsene, med kontrastvarsel\n\n---"
   }
 }
