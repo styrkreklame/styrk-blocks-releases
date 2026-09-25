@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.215",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.215.zip",
+  "version": "0.10.216",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.216.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "e290dedafd3164fdefa1684b4751832d3034f24c2bdd09d61a55528d82372d85",
+  "sha256": "a553334c2360ff6ed9e24a861146e7a7cf7e3e981f9d656f12a935f9e8ff6353",
   "signature_alg": "ed25519",
-  "signature": "03QwYpTsgIzjqG0OUu0SxxCbhQOMtk74Q8UgGhCSg5D0fGxFxNA5EjGqxuFZlnyOFb7xJ/TAEMvTk9EhfhjQCQ==",
-  "last_updated": "2026-09-24 12:23:02",
+  "signature": "Etgy3ArMVNRDSZDic0G/LJ4BhszlL2B71cxX6ATDo78bDs7pUgrx6mU+I4BK1gIpgd6oOwxKgmk7chZIeeB2DA==",
+  "last_updated": "2026-09-25 11:32:34",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- Merge pull request #354 from styrkreklame/feat/mockup-deck\n\n---"
+    "changelog": "- fix(editor): radius per knapp\n\n---"
   }
 }
