@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.216",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.216.zip",
+  "version": "0.10.217",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.217.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "a553334c2360ff6ed9e24a861146e7a7cf7e3e981f9d656f12a935f9e8ff6353",
+  "sha256": "44bbc442fbe90a7543abe64817a3f664926218914e7cd44f55a8eeb242c8aa3e",
   "signature_alg": "ed25519",
-  "signature": "Etgy3ArMVNRDSZDic0G/LJ4BhszlL2B71cxX6ATDo78bDs7pUgrx6mU+I4BK1gIpgd6oOwxKgmk7chZIeeB2DA==",
-  "last_updated": "2026-09-25 11:32:34",
+  "signature": "dRTihV+UeRTWtqc7liRu3qtXDK+qCJd7rmBsAdDF1GxJOtEUY6Hams8Ervy4nv3xDw4r/ACqOcDmA21knUyPBA==",
+  "last_updated": "2026-09-28 11:58:14",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(editor): radius per knapp\n\n---"
+    "changelog": "- feat(featured-projects): klikk et kort for å velge prosjekt\n\n---"
   }
 }
