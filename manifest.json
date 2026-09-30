@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.225",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.225.zip",
+  "version": "0.10.226",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.226.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "7abbb775fcaf1a81a019a35456a619988d61f10d32be012795951baf35d4f6b0",
+  "sha256": "7b9f2cc5127bc9325ac4121edf583a582387cfe05b261ea4537318a475536c71",
   "signature_alg": "ed25519",
-  "signature": "ZJ7rVTif/yUQuMobVGI+11ktsSlrzznJ2XQ0DH47JLeBDDU5A5Q68d5eFLwbim+XYwDOi0kPMz/kjk5Lkbx+Aw==",
-  "last_updated": "2026-09-30 10:49:01",
+  "signature": "y2G3FpUTIdP7bkHYX45fHwaQABG0k3AP/vH3/i+wUmKfadxp224hkTGBvVLcWct+FVqwTmfu5UJ6wxnUdIwlCA==",
+  "last_updated": "2026-09-30 11:12:11",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(hero): cross-fade the background video in over its poster\n\n---"
+    "changelog": "- feat(header): SSR slice 1 - header colour logic in PHP, pinned to the client\n\n---"
   }
 }
