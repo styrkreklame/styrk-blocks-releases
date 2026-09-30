@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.236",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.236.zip",
+  "version": "0.10.237",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.237.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "9093cb57b44e0a62b3966767f5cb1d46921021e1a8ace3946e24de272fafc134",
+  "sha256": "92a840fe07440ae962f4fa83691b3d0327bc7d76350052361d23636d05398e61",
   "signature_alg": "ed25519",
-  "signature": "TXwmnLpZ7QoS8UffV7sAGRx7p4PD6kSqUYykZeMe0BeyP7gBCNBYaATXQN7GXCpBHSGfaNKA/9la2n6A6aZdAg==",
-  "last_updated": "2026-09-30 13:17:04",
+  "signature": "VEjz9QcLS6sXJeLYNZQ3KALrVC9c91tPgkw/woI1dd1MAoU/k2IW8LFmZwwER0wfjtI+A2Rq25EK9GrfvIH5AQ==",
+  "last_updated": "2026-09-30 13:24:32",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(footer): focus ring wraps the whole logo\n\n---"
+    "changelog": "- fix/process section spacing\n\n---"
   }
 }
