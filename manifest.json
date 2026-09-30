@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.223",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.223.zip",
+  "version": "0.10.224",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.224.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "f81f537952f6bec98041a405ea5d47eab569c0a69b806efa1a3be37e726e72dc",
+  "sha256": "ad7b36c2353a8dfce80b2612c2cb7c0764fdc6a88e2f2ba5029363fe4140820e",
   "signature_alg": "ed25519",
-  "signature": "4WouVIOSjnAOrUxqPh2CrxN5IibY2DaqMWIhGUPDGx9DIuydN4GcHl58Euta+yFf9uRXVXSTKa75XSEUjVg4Cg==",
-  "last_updated": "2026-09-30 10:14:56",
+  "signature": "BWi7gTrcE49nIXsv9dbTkj76Ahci7TcAEIWqv3Rn1+0a1ck+OvhZ0TMYH9q/NuiJ/iDxnFRvl1DaAQsKtRYMCQ==",
+  "last_updated": "2026-09-30 10:25:25",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(hero): pausable, reduced-motion-aware, deferred background video\n\n---"
+    "changelog": "- chore(perf-gate): budget the hero video controls (+1 KB frontend JS)\n\n---"
   }
 }
