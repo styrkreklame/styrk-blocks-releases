@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.224",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.224.zip",
+  "version": "0.10.225",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.225.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "ad7b36c2353a8dfce80b2612c2cb7c0764fdc6a88e2f2ba5029363fe4140820e",
+  "sha256": "7abbb775fcaf1a81a019a35456a619988d61f10d32be012795951baf35d4f6b0",
   "signature_alg": "ed25519",
-  "signature": "BWi7gTrcE49nIXsv9dbTkj76Ahci7TcAEIWqv3Rn1+0a1ck+OvhZ0TMYH9q/NuiJ/iDxnFRvl1DaAQsKtRYMCQ==",
-  "last_updated": "2026-09-30 10:25:25",
+  "signature": "ZJ7rVTif/yUQuMobVGI+11ktsSlrzznJ2XQ0DH47JLeBDDU5A5Q68d5eFLwbim+XYwDOi0kPMz/kjk5Lkbx+Aw==",
+  "last_updated": "2026-09-30 10:49:01",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- chore(perf-gate): budget the hero video controls (+1 KB frontend JS)\n\n---"
+    "changelog": "- fix(hero): cross-fade the background video in over its poster\n\n---"
   }
 }
