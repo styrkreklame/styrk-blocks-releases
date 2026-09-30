@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.219",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.219.zip",
+  "version": "0.10.220",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.220.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "43415a88fc76449c9b0ef7a3cfa597061a9485ced54d20ffeef30f0921b0869d",
+  "sha256": "12b9aedfe05bfe713ab60daa13100c870e2437e36d95f25b2dee8f0fdb38896c",
   "signature_alg": "ed25519",
-  "signature": "H9YDtUJeQ0ujdYxPeWDQ57Uy6poTf8Tw6h/T2q8yu7gCLeHgrHM/XQnMiHDjIqsAgzHK2sC2wuJYU4j+9AY0CA==",
-  "last_updated": "2026-09-30 08:32:36",
+  "signature": "2ZjU4EuegBrXPsfdv/lQTViKAUhwI8mYfunS1kBxzoEDahEjq2myqNIlHtTQ9yAkOuVQkP1uApSbI/f19UTdAg==",
+  "last_updated": "2026-09-30 08:56:06",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(contact-section): map under the form rendered nothing; hook up HiveMind\n\n---"
+    "changelog": "- fix(security): stop publishing account login names to anonymous visitors\n\n---"
   }
 }
