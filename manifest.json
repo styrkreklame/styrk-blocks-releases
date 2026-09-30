@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.222",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.222.zip",
+  "version": "0.10.223",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.223.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "c01325a91b8586c8449af9b4eb574503a1015bab493f15ecc368694e869871ed",
+  "sha256": "f81f537952f6bec98041a405ea5d47eab569c0a69b806efa1a3be37e726e72dc",
   "signature_alg": "ed25519",
-  "signature": "ZGq2q5wXol4wDTD3XMvM6Ci2vDZZ8C+le5MiWpKh0G9ZPwu1YpQGd5hRbTLHiCvHFLt/vMdYE4WCgp0hmiMWAA==",
-  "last_updated": "2026-09-30 10:03:40",
+  "signature": "4WouVIOSjnAOrUxqPh2CrxN5IibY2DaqMWIhGUPDGx9DIuydN4GcHl58Euta+yFf9uRXVXSTKa75XSEUjVg4Cg==",
+  "last_updated": "2026-09-30 10:14:56",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(images): blur-up placeholders for every photo\n\n---"
+    "changelog": "- fix(hero): pausable, reduced-motion-aware, deferred background video\n\n---"
   }
 }
