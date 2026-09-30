@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.217",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.217.zip",
+  "version": "0.10.218",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.218.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "44bbc442fbe90a7543abe64817a3f664926218914e7cd44f55a8eeb242c8aa3e",
+  "sha256": "5284d393181eb0d59ae8801c4e76f8f2387cb070e54e26b820cb31cf7f0c738f",
   "signature_alg": "ed25519",
-  "signature": "dRTihV+UeRTWtqc7liRu3qtXDK+qCJd7rmBsAdDF1GxJOtEUY6Hams8Ervy4nv3xDw4r/ACqOcDmA21knUyPBA==",
-  "last_updated": "2026-09-28 11:58:14",
+  "signature": "+RfebmvMpOePfH3FJSXgFYf54JHZ3WCkmztJqpsoA/ymHMa1zhFzAY0zVRNKzAbcph8rzMYmdx2nhqzSMjhlBQ==",
+  "last_updated": "2026-09-30 08:05:57",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(featured-projects): klikk et kort for å velge prosjekt\n\n---"
+    "changelog": "- fix(release): ship an allowlist, stop leaking dev files to client sites\n\n---"
   }
 }
