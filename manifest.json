@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.229",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.229.zip",
+  "version": "0.10.230",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.230.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "1f9be25dfa053aa33f2b9873eeec6048888b59a34a3002c235d8c45b1c23672f",
+  "sha256": "f89ff41e848e665c3ed90d00b380d38a32809fae08589e805ee0385c212a2276",
   "signature_alg": "ed25519",
-  "signature": "ciPhCh5iKZ5i2QLaR+2be8q7oV1DiWOS1mYiXlcO23v3x6OZxiFpiUnZLEuPT9vfTAFTaXlkGRag2RwEaNj1BQ==",
-  "last_updated": "2026-09-30 11:45:32",
+  "signature": "WouTJO/o/iLzUI6k/OqlCzcOO1it2MINbsbhe+4WVmmuMbD1ETTeOEXiXgbHxUB7ZkG/qpztsxV6RMi9hyE5Dw==",
+  "last_updated": "2026-09-30 12:02:34",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(header): SSR slices 3+4 - mobile menu and scroll states (dormant)\n\n---"
+    "changelog": "- feat(header): SSR slice 5 - desktop dropdowns and flyouts (dormant)\n\n---"
   }
 }
