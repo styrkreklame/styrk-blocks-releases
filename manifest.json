@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.220",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.220.zip",
+  "version": "0.10.221",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.221.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "12b9aedfe05bfe713ab60daa13100c870e2437e36d95f25b2dee8f0fdb38896c",
+  "sha256": "9156e5201b9168f8651f16431ceaa6686f320607efe5138977edd12832f732eb",
   "signature_alg": "ed25519",
-  "signature": "2ZjU4EuegBrXPsfdv/lQTViKAUhwI8mYfunS1kBxzoEDahEjq2myqNIlHtTQ9yAkOuVQkP1uApSbI/f19UTdAg==",
-  "last_updated": "2026-09-30 08:56:06",
+  "signature": "0MJ5yOfeQt4ed5l9jntskbeaRd6akmKQV+fuWMhxexCvHzfypsm0dnfuiEUVcCirKFs6O46qRnga63OsDI5dBw==",
+  "last_updated": "2026-09-30 09:22:22",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(security): stop publishing account login names to anonymous visitors\n\n---"
+    "changelog": "- fix(header): reserve the sticky header's space before JS renders it\n\n---"
   }
 }
