@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.232",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.232.zip",
+  "version": "0.10.233",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.233.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "d66513cca911c8ad61ce081efc25590b0e00e1e02fd769413ff2999fade8c234",
+  "sha256": "be05042fffe2f56bfe29b7b624df61c1d9d4c94474627f7205eab0864c9f471b",
   "signature_alg": "ed25519",
-  "signature": "hv8TA9Kf8nZF35p6mlBvSkOxmVmgGs577Th/HZ5XJQIRC5ee9ZCtd8VZX9tXdh2rOxDlxaqndLs/BysPNgJlAw==",
-  "last_updated": "2026-09-30 12:21:20",
+  "signature": "3WjkM9OxdVqWL/7TJv4XeYQs6fJqOL5rbwuAfgziuJZJ4DLJ1seW1e+/lTNl01vzikzX4OtEO8LeqV5/mC/jCg==",
+  "last_updated": "2026-09-30 12:28:34",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(hero): no poster ghost behind the video; click the hero to pause\n\n---"
+    "changelog": "- feat(header): SSR slice 6b - search overlay (dormant)\n\n---"
   }
 }
