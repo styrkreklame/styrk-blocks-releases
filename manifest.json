@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.227",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.227.zip",
+  "version": "0.10.228",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.228.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "e24b9cc447eedea2cd40fdd5290d360a42b7dea84933df4f86dccf9ea096f354",
+  "sha256": "ffd971a3c63456a345514e80c259519e3b0acec89574abab3f579f58bf33281b",
   "signature_alg": "ed25519",
-  "signature": "x5aPkYC+nkDYIIoYCqCQ6UXiGf+ouxHnh76we/E5TcOrEAcEbjVA6GCuAhancWqJmXS/u+TFefBWGq0RuVEUDg==",
-  "last_updated": "2026-09-30 11:27:00",
+  "signature": "Xb9E8jgheFyGYCwathRmMPkaDZphhCtzO+bRfa8u3BVZ+dTfrHaqKBeYjXdM77UF+TmfPoPDSYuTeei3OqRkDQ==",
+  "last_updated": "2026-09-30 11:37:53",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(header): SSR slice 2 - server-rendered header bar (dormant)\n\n---"
+    "changelog": "- fix(search): remove the extra air above the search results band\n\n---"
   }
 }
