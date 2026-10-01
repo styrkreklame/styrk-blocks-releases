@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.237",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.237.zip",
+  "version": "0.10.238",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.238.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "92a840fe07440ae962f4fa83691b3d0327bc7d76350052361d23636d05398e61",
+  "sha256": "065be1db0fbc2b09ec4090ca19e475f692f59264053d04fe1e9aadacb4ae91ac",
   "signature_alg": "ed25519",
-  "signature": "VEjz9QcLS6sXJeLYNZQ3KALrVC9c91tPgkw/woI1dd1MAoU/k2IW8LFmZwwER0wfjtI+A2Rq25EK9GrfvIH5AQ==",
-  "last_updated": "2026-09-30 13:24:32",
+  "signature": "QHvNlVqGXpt13jtvyT7Y26mvu1c9qC84o/sQaPyhMUOAl8VsubfOO6HDkKAIATTPgk7aG+K2H2gaNEDRyQfOBQ==",
+  "last_updated": "2026-10-01 06:18:28",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix/process section spacing\n\n---"
+    "changelog": "- fix(logo-strip): pausable marquee, tidy reduced-motion layout, no hidden tab stops\n\n---"
   }
 }
