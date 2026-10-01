@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.244",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.244.zip",
+  "version": "0.10.245",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.245.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "26d4f8d4f02be8625b34c9bf6f3b84d5219f70e26dc842bf8a4c31696e13e4d7",
+  "sha256": "b9efff10e9b7f7bfee5e50f51cd3f7a42cbc365ba6c8c252451d6fbbc337731f",
   "signature_alg": "ed25519",
-  "signature": "WSmUeeVaweWkZMarh3T84TvtOx6E/pMnukuRlahfGxkMmoZ4tLMcH+hqGtZfayTC7IhzWyejC5LgVexvQMJwCw==",
-  "last_updated": "2026-10-01 07:26:14",
+  "signature": "JAuDDW3MI/XNEepRpJ9fqjZPWtAGIVv4aro7iyrwl5VEs9sDaSL6Iiqjbb3r3yHBlJoJEDN35VhVDq3zcZ8rDw==",
+  "last_updated": "2026-10-01 13:07:13",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(logo-strip): print the heading the editor has always offered\n\n---"
+    "changelog": "- feat: employee-grid layouts, page-header pattern, header and search fixes\n\n---"
   }
 }
