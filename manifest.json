@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.239",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.239.zip",
+  "version": "0.10.240",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.240.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "4602f441f3af5cb96da73d3c1d461c3268d012410d5bce1e5ce022d010bfa0d9",
+  "sha256": "36a59825bb02f5b6ba88222a1fc18f33318fd5972f5c1054dfb56b308b25f8b1",
   "signature_alg": "ed25519",
-  "signature": "owvIRgUVSK24bC2RodV3PQy0ve/V2T0jERh3sfA0yYo38UDGX+5AwoDK32zdZSVTT+DPj1xZ2Bp5dZeWLpPVAg==",
-  "last_updated": "2026-10-01 06:23:42",
+  "signature": "/Ynl4BZ3XxSmPQSzKu/s0EXsceKkrOQy6rShhuZBxkkZSxR6GLJy/gVYxErUe/9V/Xpj+iVbb9i6sisZmPS3BA==",
+  "last_updated": "2026-10-01 06:36:17",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(project): one page gutter inside the project body, not two\n\n---"
+    "changelog": "- fix(media-grid): render nothing when a gallery has no media\n\n---"
   }
 }
