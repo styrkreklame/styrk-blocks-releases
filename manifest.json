@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.243",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.243.zip",
+  "version": "0.10.244",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.244.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "fe71438d91926832ebb6fc8636aff3b5c1f926aa94d08f268ca5360509020a49",
+  "sha256": "26d4f8d4f02be8625b34c9bf6f3b84d5219f70e26dc842bf8a4c31696e13e4d7",
   "signature_alg": "ed25519",
-  "signature": "BjVamRmw4ffgXhfJ7XLedl6oHhjfJh8aOtT6fXHT5W2tAHkcuBQGGQwlpzkyOckffVHDHJ91S04q8J/nHlXrDA==",
-  "last_updated": "2026-10-01 07:00:54",
+  "signature": "WSmUeeVaweWkZMarh3T84TvtOx6E/pMnukuRlahfGxkMmoZ4tLMcH+hqGtZfayTC7IhzWyejC5LgVexvQMJwCw==",
+  "last_updated": "2026-10-01 07:26:14",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(project-template): the body wrapper is a Group block, not a bare div\n\n---"
+    "changelog": "- fix(logo-strip): print the heading the editor has always offered\n\n---"
   }
 }
