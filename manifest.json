@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.241",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.241.zip",
+  "version": "0.10.242",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.242.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "7c0887cca56c9605980dd916ff4fd7c9d217fc9305e2d98b75bbf4c9b0c44c56",
+  "sha256": "e85c3edeaee741fedb7907c5eeb48e47948742ac0c33b28f32909ec0f09a1dcb",
   "signature_alg": "ed25519",
-  "signature": "E6Q8mhadJv3BAM+hvl9zTxMFeS+Ay2NzeZgFdPlVCzORY6edpFMuu5eyl8aBX1I0pydaIrkBJ1tkVKdwS02GDg==",
-  "last_updated": "2026-10-01 06:43:24",
+  "signature": "ZrvlMNkBPUD/bem7fQaq2vu9uPZ+MkXmP2QZ2jhF6/ZusYhQnx+UFb2Z8QWSPgnalJgi0mHxoSeeUD1jGmoGBg==",
+  "last_updated": "2026-10-01 06:53:25",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(post-nav): the top margin never applied; buttons sat glued to the content\n\n---"
+    "changelog": "- fix(employee-grid): closed modal is inert, dialog is named, Close is Norwegian\n\n---"
   }
 }
