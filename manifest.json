@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.242",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.242.zip",
+  "version": "0.10.243",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.243.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "e85c3edeaee741fedb7907c5eeb48e47948742ac0c33b28f32909ec0f09a1dcb",
+  "sha256": "fe71438d91926832ebb6fc8636aff3b5c1f926aa94d08f268ca5360509020a49",
   "signature_alg": "ed25519",
-  "signature": "ZrvlMNkBPUD/bem7fQaq2vu9uPZ+MkXmP2QZ2jhF6/ZusYhQnx+UFb2Z8QWSPgnalJgi0mHxoSeeUD1jGmoGBg==",
-  "last_updated": "2026-10-01 06:53:25",
+  "signature": "BjVamRmw4ffgXhfJ7XLedl6oHhjfJh8aOtT6fXHT5W2tAHkcuBQGGQwlpzkyOckffVHDHJ91S04q8J/nHlXrDA==",
+  "last_updated": "2026-10-01 07:00:54",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(employee-grid): closed modal is inert, dialog is named, Close is Norwegian\n\n---"
+    "changelog": "- fix(project-template): the body wrapper is a Group block, not a bare div\n\n---"
   }
 }
