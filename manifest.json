@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.248",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.248.zip",
+  "version": "0.10.249",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.249.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "87a626f53f7c56111319339956e8c745aee4dc7849262643cc6d97b86beb5f18",
+  "sha256": "6c3826a38c1b8a7bdde8974ca349549c076e6371dc388ff706154e341303dde5",
   "signature_alg": "ed25519",
-  "signature": "+Alx/Yd43ZxTOemRbpt/v2iY8kurI0WHOiQg63RINgqm5D3ucka7BHqnO+pmYDAzzkCRG0U/62BF0RenqoFuBA==",
-  "last_updated": "2026-10-02 10:48:41",
+  "signature": "PcLiqgSlhC2FIN+epnq6vGeXMPjwtcdpQiFDikfO08WUDCh7A7vJZuccCu6/W3zXocvKBy/OG5knTWCnrNUEAA==",
+  "last_updated": "2026-10-02 11:01:51",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- chore: move the AI project rules and planning docs to HiveMind\n\n---"
+    "changelog": "- fix(footer): sub-page button keeps its inset ring after a mouse click\n\n---"
   }
 }
