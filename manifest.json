@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.250",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.250.zip",
+  "version": "0.10.251",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.251.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "5652d7b6be8a817b0aeab5bdcc75400beb282bcf2a892bbb59eeb646e401f7aa",
+  "sha256": "3ee57967c19f9b884dcde490ba7714bd186ff7b83b29ce0c8c74305a2bcfd3f4",
   "signature_alg": "ed25519",
-  "signature": "6LH1+vfik6G5W0OHObac72C5xDOkLSmVjY6IGLNKe5n68Btn9PKBmsZR1E5n+ZtioLbieka24rvcScq/EuBDBw==",
-  "last_updated": "2026-10-02 11:17:42",
+  "signature": "CmWd1V0vhoZmDulo7yqa3ee9qOC7jEz1JZB6nRxw4t7+ujE2uYsUdsVwjLN0C3NRs+tT0eYdcevhoLRhvWh8DA==",
+  "last_updated": "2026-10-02 11:28:17",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(employee-grid): pop-up lives on <body> and locks scroll on <html>\n\n---"
+    "changelog": "- fix(hero): a first hero under a sticky header is a viewport minus the header\n\n---"
   }
 }
