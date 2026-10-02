@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.249",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.249.zip",
+  "version": "0.10.250",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.250.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "6c3826a38c1b8a7bdde8974ca349549c076e6371dc388ff706154e341303dde5",
+  "sha256": "5652d7b6be8a817b0aeab5bdcc75400beb282bcf2a892bbb59eeb646e401f7aa",
   "signature_alg": "ed25519",
-  "signature": "PcLiqgSlhC2FIN+epnq6vGeXMPjwtcdpQiFDikfO08WUDCh7A7vJZuccCu6/W3zXocvKBy/OG5knTWCnrNUEAA==",
-  "last_updated": "2026-10-02 11:01:51",
+  "signature": "6LH1+vfik6G5W0OHObac72C5xDOkLSmVjY6IGLNKe5n68Btn9PKBmsZR1E5n+ZtioLbieka24rvcScq/EuBDBw==",
+  "last_updated": "2026-10-02 11:17:42",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(footer): sub-page button keeps its inset ring after a mouse click\n\n---"
+    "changelog": "- fix(employee-grid): pop-up lives on <body> and locks scroll on <html>\n\n---"
   }
 }
