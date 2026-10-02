@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.246",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.246.zip",
+  "version": "0.10.247",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.247.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "607a33069e9eef02acd4bc0f9e1cd6a7246fa32fee3f59eff071cc9aba22c752",
+  "sha256": "c198e23231d173300beb8e277deebd00edcf6041a4ad0f6e4afc953d0a0c448a",
   "signature_alg": "ed25519",
-  "signature": "NQcLM4ZQL95f+ryD6Ko7bf8oJ8dgFQ5ocCvuGnhlsKSM6+19yeuP0Cdn70gPIlpqxxBeCO7BX+vWdddNEZBnBA==",
-  "last_updated": "2026-10-02 08:58:44",
+  "signature": "WuII45XKjMqgJhlk9DMrKDFvU0WfnL3UI6oyJZnL3kqy3VFYJWgF4ajkTJ/llgLTlO1OHo7+SaSOerPWJAyhAg==",
+  "last_updated": "2026-10-02 10:42:36",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat: header and footer width, footer layout, media folders; lightbox and editor fixes\n\n---"
+    "changelog": "- feat: footer page links with expandable sub-pages; image"
   }
 }
