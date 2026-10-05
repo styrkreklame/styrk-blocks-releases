@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.251",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.251.zip",
+  "version": "0.10.252",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.252.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "3ee57967c19f9b884dcde490ba7714bd186ff7b83b29ce0c8c74305a2bcfd3f4",
+  "sha256": "36b73cff3ab85ea8b4ca9eecfba497c313c965ea53f421ae9942eced3b50b5eb",
   "signature_alg": "ed25519",
-  "signature": "CmWd1V0vhoZmDulo7yqa3ee9qOC7jEz1JZB6nRxw4t7+ujE2uYsUdsVwjLN0C3NRs+tT0eYdcevhoLRhvWh8DA==",
-  "last_updated": "2026-10-02 11:28:17",
+  "signature": "96hPVNmEDNXhnsjv5qsE066OD+SjEIOf+Ictn1MOfXhf+dg4zn75bydlbo95OR33MYy1nWKhSdcteHFwi5iiBA==",
+  "last_updated": "2026-10-05 13:18:36",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(hero): a first hero under a sticky header is a viewport minus the header\n\n---"
+    "changelog": "- feat(site-chooser): new block for choosing between sister sites; fix sticky header under the admin bar\n\n---"
   }
 }
