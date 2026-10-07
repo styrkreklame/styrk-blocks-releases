@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.258",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.258.zip",
+  "version": "0.10.259",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.259.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "24e30a6d4b1fb71576e7e0a6765567439a2c3e98dd8c5c6103061c5d8f6897b4",
+  "sha256": "c0fe640104e0862e9ef13560e294e08b3731f442e4bd92da9223e90794c5c200",
   "signature_alg": "ed25519",
-  "signature": "WSUeDbEBT7JzwrUNkBoG9qxKYQ8x3hyenQNybLDUgyeT10U5LfGFCebb3Qb25okZDekXyfETJuYBBujlMzrkAw==",
-  "last_updated": "2026-10-07 10:22:13",
+  "signature": "5Pwe05p1ZEB5rf4qC65dtRNAu5DFibYSAJSLAx3VfVBpGlarbDdfrs4Rt4UPOm5BdMp3wKsTjDoyfFShHHzRBQ==",
+  "last_updated": "2026-10-07 10:31:48",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(hero): default CTA colour follows the theme's accent\n\n---"
+    "changelog": "- fix(css): border-box for every element of every block, not a hand-kept list of seven\n\n---"
   }
 }
