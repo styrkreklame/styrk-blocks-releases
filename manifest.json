@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.252",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.252.zip",
+  "version": "0.10.253",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.253.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "36b73cff3ab85ea8b4ca9eecfba497c313c965ea53f421ae9942eced3b50b5eb",
+  "sha256": "8ad3702fe2ea656ceeb2459a15024aef16577043d397f37425f408ced2956218",
   "signature_alg": "ed25519",
-  "signature": "96hPVNmEDNXhnsjv5qsE066OD+SjEIOf+Ictn1MOfXhf+dg4zn75bydlbo95OR33MYy1nWKhSdcteHFwi5iiBA==",
-  "last_updated": "2026-10-05 13:18:36",
+  "signature": "tMBKyqVmE0RdwE0VyYFDVAtGaVdhFiYNY/nBK5zjJB2QOY/dIQ+8818R5ytd4HBsBNv3ED7cRO0rmvDeKn0UBw==",
+  "last_updated": "2026-10-07 08:14:20",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(site-chooser): new block for choosing between sister sites; fix sticky header under the admin bar\n\n---"
+    "changelog": "- fix(editor): contrast warning checks all visible text against WCAG AA\n\n---"
   }
 }
