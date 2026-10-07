@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.262",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.262.zip",
+  "version": "0.10.263",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.263.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "03d673e06beb46f217e382485ea467af65185cd592ccc8211f0de92a8785ef7e",
+  "sha256": "d4951eca901b94fbe9089d5fbb2a07a8dfd4c4e08b933c2bfbdd145b9d00fdb5",
   "signature_alg": "ed25519",
-  "signature": "/1mTZFZD055M8kHq6Ygv/adev34UQVqUPPEgKmePFf0yobZAF+vjzXwGL2ok7Zq+JOTh8PiZ/87pjgltErraDQ==",
-  "last_updated": "2026-10-07 11:39:11",
+  "signature": "WOmvxWGrx7g5EWUgs3WfWH0olKO+psNPn7gbiOsxPKJ/EPJNiMgscr69usm2iv5iReVJXiCsJCVPDL/5OuiHBQ==",
+  "last_updated": "2026-10-07 11:45:51",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(header): menu position works when a theme moves the search button\n\n---"
+    "changelog": "- fix(lightbox): open state beats theme CSS; never scroll-lock behind a hidden overlay\n\n---"
   }
 }
