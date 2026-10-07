@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.256",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.256.zip",
+  "version": "0.10.257",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.257.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "180892dc1ce3cc556d295681381e01d0e62a5b018c4dc59b9fcfef70be393b7d",
+  "sha256": "2b9e911e42929d989bfc1670dc22ac95618bd05bfc1acc288fce317d97da4b45",
   "signature_alg": "ed25519",
-  "signature": "l/7Axg4xa82XD3eu/94TcTxnmzGzl2XKXfncIYm70b2XLZgrtPSp5juTq65CfCl0WGdPeaDqcDvF3ZOMUALnAg==",
-  "last_updated": "2026-10-07 09:22:34",
+  "signature": "HUvcpI0mVYB3LgZHx7058228WkTdSVa/+DF3iXDyPqagsOJ8aGC3xMB93aFdpwA/Xf+o3MREeLOtI2v5aekpCA==",
+  "last_updated": "2026-10-07 10:09:12",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- test: admin render gate — settings screens must render with"
+    "changelog": "- fix(employee-grid): contact panel defaults to the site's muted tint, not aliceblue\n\n---"
   }
 }
