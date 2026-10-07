@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.257",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.257.zip",
+  "version": "0.10.258",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.258.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "2b9e911e42929d989bfc1670dc22ac95618bd05bfc1acc288fce317d97da4b45",
+  "sha256": "24e30a6d4b1fb71576e7e0a6765567439a2c3e98dd8c5c6103061c5d8f6897b4",
   "signature_alg": "ed25519",
-  "signature": "HUvcpI0mVYB3LgZHx7058228WkTdSVa/+DF3iXDyPqagsOJ8aGC3xMB93aFdpwA/Xf+o3MREeLOtI2v5aekpCA==",
-  "last_updated": "2026-10-07 10:09:12",
+  "signature": "WSUeDbEBT7JzwrUNkBoG9qxKYQ8x3hyenQNybLDUgyeT10U5LfGFCebb3Qb25okZDekXyfETJuYBBujlMzrkAw==",
+  "last_updated": "2026-10-07 10:22:13",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(employee-grid): contact panel defaults to the site's muted tint, not aliceblue\n\n---"
+    "changelog": "- fix(hero): default CTA colour follows the theme's accent\n\n---"
   }
 }
