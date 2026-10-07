@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.265",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.265.zip",
+  "version": "0.10.266",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.266.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "446f8509e70a0a9f25a8a9f24194d0c38c14e2047564383fc866e5f038be6292",
+  "sha256": "3b853667f43d1990c624f126a04b538d854eba3087c7b2832911fc863828bfef",
   "signature_alg": "ed25519",
-  "signature": "M9kfADgKgrycNghrvX5OXVg2wHcoJyqbCVjXHIXN49KnwOsvqE1KITGdbwx/6y0ATMHWD1EhuhC0xVLIvBEKBw==",
-  "last_updated": "2026-10-07 12:59:03",
+  "signature": "rlS1p/mNXvp3c50h6hjbTDUTaXnk3KELw59XtHsA5l+8Pj72eN2mHaOd1AKF4qej1ZLmzogZ9wppC+PDko45Aw==",
+  "last_updated": "2026-10-07 13:16:31",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(a11y): accent used as text falls back to primary where it can't be read\n\n---"
+    "changelog": "- fix(a11y): readable default eyebrows on dark shells and coloured pills\n\n---"
   }
 }
