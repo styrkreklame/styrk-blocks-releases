@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.255",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.255.zip",
+  "version": "0.10.256",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.256.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "545bf2d9edb9babc5872a2121a92571928dcedfe2f2af912c7c5f501f71f661e",
+  "sha256": "180892dc1ce3cc556d295681381e01d0e62a5b018c4dc59b9fcfef70be393b7d",
   "signature_alg": "ed25519",
-  "signature": "+2WbWZd3qlfgH+xBaD/tg/g623+w2EfhDXE5N49loVkUTH04e1PQ92CiTjZGXljatxG6ORfLV7aOFEIYYffOAA==",
-  "last_updated": "2026-10-07 09:15:30",
+  "signature": "l/7Axg4xa82XD3eu/94TcTxnmzGzl2XKXfncIYm70b2XLZgrtPSp5juTq65CfCl0WGdPeaDqcDvF3ZOMUALnAg==",
+  "last_updated": "2026-10-07 09:22:34",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- test(react-header): axe gate for the open dropdown and flyout menus\n\n---"
+    "changelog": "- test: admin render gate — settings screens must render with"
   }
 }
