@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.261",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.261.zip",
+  "version": "0.10.262",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.262.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "7452d7d7d2192a3fb4ee9da006b1804ea37c5472455ff99058c176c71ee85c53",
+  "sha256": "03d673e06beb46f217e382485ea467af65185cd592ccc8211f0de92a8785ef7e",
   "signature_alg": "ed25519",
-  "signature": "GO+0UdnRSJSk/cZFQxVbq2+8QbHCT4hWxlc9SLdn3kmLOnH1nY6vqQs2OGM5mQrg11lopw+iCRRu+dbj7ascDg==",
-  "last_updated": "2026-10-07 10:57:21",
+  "signature": "/1mTZFZD055M8kHq6Ygv/adev34UQVqUPPEgKmePFf0yobZAF+vjzXwGL2ok7Zq+JOTh8PiZ/87pjgltErraDQ==",
+  "last_updated": "2026-10-07 11:39:11",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(colors): every preset fallback is the brand hex — 63 wrong fallbacks corrected\n\n---"
+    "changelog": "- fix(header): menu position works when a theme moves the search button\n\n---"
   }
 }
