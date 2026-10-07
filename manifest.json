@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.253",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.253.zip",
+  "version": "0.10.254",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.254.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "8ad3702fe2ea656ceeb2459a15024aef16577043d397f37425f408ced2956218",
+  "sha256": "9f772764af6a9293f16bc1885a0488e516946f6083679f5bcca65eab93a73d90",
   "signature_alg": "ed25519",
-  "signature": "tMBKyqVmE0RdwE0VyYFDVAtGaVdhFiYNY/nBK5zjJB2QOY/dIQ+8818R5ytd4HBsBNv3ED7cRO0rmvDeKn0UBw==",
-  "last_updated": "2026-10-07 08:14:20",
+  "signature": "Sy9gce2X5VRRGxI96QTftWS8eESqy9AZyops09As/baNp6CgF70B40fYz43nSOtz7HNW4e1KL3ludFD2U3vbDg==",
+  "last_updated": "2026-10-07 08:54:25",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(editor): contrast warning checks all visible text against WCAG AA\n\n---"
+    "changelog": "- fix(editor): raud hover på slett-knappen i staden for blå WP-ramme\n\n---"
   }
 }
