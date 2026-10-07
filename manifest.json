@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.263",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.263.zip",
+  "version": "0.10.264",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.264.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "d4951eca901b94fbe9089d5fbb2a07a8dfd4c4e08b933c2bfbdd145b9d00fdb5",
+  "sha256": "71fe51fdfd1b1703f1b010a8086a078691b7404d9d2cbab425dfaec2450f4edd",
   "signature_alg": "ed25519",
-  "signature": "WOmvxWGrx7g5EWUgs3WfWH0olKO+psNPn7gbiOsxPKJ/EPJNiMgscr69usm2iv5iReVJXiCsJCVPDL/5OuiHBQ==",
-  "last_updated": "2026-10-07 11:45:51",
+  "signature": "2bAcrGj61+J0wREW9kY4Idhjl0R9BENHHG2qqdZNo3xnJpS3nveFw/zzLPVOK/41oVDvp2tR0hz/TASnDjMnDw==",
+  "last_updated": "2026-10-07 12:46:09",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(lightbox): open state beats theme CSS; never scroll-lock behind a hidden overlay\n\n---"
+    "changelog": "- fix(blocks): neutral bokmål defaults instead of client copy and English\n\n---"
   }
 }
