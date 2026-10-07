@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.260",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.260.zip",
+  "version": "0.10.261",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.261.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "b2b6145826a47a94b9ec9173e59b5e228d67bcc8cc35499d15e257d0b8eb9e08",
+  "sha256": "7452d7d7d2192a3fb4ee9da006b1804ea37c5472455ff99058c176c71ee85c53",
   "signature_alg": "ed25519",
-  "signature": "YA2lch51494jPJkZrim6eQoebxYXzZXKYCzeOlZ+fk3b75F1YPt/9CoPijzE/MDjNVhV3pOzg008s5Mcs4dQCw==",
-  "last_updated": "2026-10-07 10:50:32",
+  "signature": "GO+0UdnRSJSk/cZFQxVbq2+8QbHCT4hWxlc9SLdn3kmLOnH1nY6vqQs2OGM5mQrg11lopw+iCRRu+dbj7ascDg==",
+  "last_updated": "2026-10-07 10:57:21",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(css): brand tokens fall back to the brand hex, not to themselves\n\n---"
+    "changelog": "- fix(colors): every preset fallback is the brand hex — 63 wrong fallbacks corrected\n\n---"
   }
 }
