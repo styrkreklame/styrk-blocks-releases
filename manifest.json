@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.269",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.269.zip",
+  "version": "0.10.270",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.270.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "41739651e5e8bdad87ea4e9cc8718451295eaccfdb930f736f9b54021fc08df1",
+  "sha256": "c1f9d319e1bec94ede60b4b0d432e737d5f7b524cc2ae8cdc745a0006562dc69",
   "signature_alg": "ed25519",
-  "signature": "4KI5n/tahKGVZc+GkG8VBTgqEgT3xa9Nr6gvmltuYBJ6m7StNOE8s0k08Np947ICf7qKpFmSCQNMzxo+KNujDQ==",
-  "last_updated": "2026-10-08 12:00:58",
+  "signature": "/bg16PXgWnSsH4kwJeKUywrfWwHj0s347NcfQe8DrjE2oM3CPGnUORPkhkLmmUdbZD/7BRhMkhEJ86o/2nUTBQ==",
+  "last_updated": "2026-10-08 12:39:07",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix: stop loading Fraunces; fall back to the site's base font\n\n---"
+    "changelog": "- fix(i18n): editor translations load; hero labels in English source\n\n---"
   }
 }
