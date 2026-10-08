@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.267",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.267.zip",
+  "version": "0.10.268",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.268.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "4a0565f0ab1d6c45f039846a12e273b9158113986e024af5d2790c4ee339e483",
+  "sha256": "7eecd27b47648e3f92e357e5a5576fb5e7f53e0f48638e74c750f0d645228f0c",
   "signature_alg": "ed25519",
-  "signature": "uA3wZmnobAdgJDUnmxdyBXuL8oJ62NpB//GFVe/B5XgJFruum8FjzzzgNkUB2Tnnm8QTvKgVvGno197thH1zCQ==",
-  "last_updated": "2026-10-08 10:41:26",
+  "signature": "aULXqc7gom0c39Gqtonafgtsfv32M1Cipwl0VGOSSnSTSTGLK7hMAEzKwSdkXJNbkhqm5OIFyceApJDSfTt8AQ==",
+  "last_updated": "2026-10-08 11:45:51",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- docs: the plugin ships no client palette; name the editor colours\n\n---"
+    "changelog": "- fix: no hardcoded Inter; text follows each site's theme fonts\n\n---"
   }
 }
