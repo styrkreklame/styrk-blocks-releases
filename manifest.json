@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.273",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.273.zip",
+  "version": "0.10.274",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.274.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "36ef08a67de61637ee7e397e67b3b821d05a64f8f5ac437a1d1106ff706fadfc",
+  "sha256": "bfc46ab3a39bc0d683e08c2c591cce0e3f50eaa4148198a4bc4a1a52868a6129",
   "signature_alg": "ed25519",
-  "signature": "7578z5FcFU2F0gu3RcgKBJZRlQOeX89OFjwo88zPuaDqwqLvSoS70bZnMZlmgxMTIc4zWa3NcFSNWHr4jmubDA==",
-  "last_updated": "2026-10-09 06:33:58",
+  "signature": "UXn0duPivV4QrUPMrni1bhjnn9XKDscYzM/9+HYJFPrtBna/90tLugJ+JGOwY6hTYwmzawDmkshvjj2nr8NuCw==",
+  "last_updated": "2026-10-09 07:15:02",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(ci): visual gate retries a crashed screenshot instead of failing\n\n---"
+    "changelog": "- chore: one 'pnpm gates' command for every local CI gate\n\n---"
   }
 }
