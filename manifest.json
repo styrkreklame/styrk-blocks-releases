@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.283",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.283.zip",
+  "version": "0.10.284",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.284.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "fccb1350b58499270ece1635de5c07d74589d2bb282129c040543baee234a69f",
+  "sha256": "3d911aecc4b0048d7463d94f9272ce23a2385369e1f1fd06b95e89bb6e7bdd0f",
   "signature_alg": "ed25519",
-  "signature": "PWgzMh2Gk8n9c4W0sV2FPHNxZIIcaLWRI3c/6mLXAGCX8WedVPpRrAGxL6IUaAnTpGayKTrujW2YNEwKsC+dDg==",
-  "last_updated": "2026-10-09 10:42:37",
+  "signature": "QUlk+dNLDEfX330ZbWL7SLfsVuYUrzn2wHLN6YWin0WNSZUiBKPMloHxlEVOUuyT3Tr7vpEka7x1Jhb7DEBiDg==",
+  "last_updated": "2026-10-09 12:10:19",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(ci): code-quality gate — fallow, PHPStan, PHPCS quality (ratcheted)\n\n---"
+    "changelog": "- fix(search): readable type pills on palettes without the chosen colour; translated post type labels\n\n---"
   }
 }
