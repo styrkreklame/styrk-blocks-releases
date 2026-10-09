@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.274",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.274.zip",
+  "version": "0.10.275",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.275.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "bfc46ab3a39bc0d683e08c2c591cce0e3f50eaa4148198a4bc4a1a52868a6129",
+  "sha256": "6b04e44d8d9bb945730090df657d78e20e4822190822770601b021fc853e78a6",
   "signature_alg": "ed25519",
-  "signature": "UXn0duPivV4QrUPMrni1bhjnn9XKDscYzM/9+HYJFPrtBna/90tLugJ+JGOwY6hTYwmzawDmkshvjj2nr8NuCw==",
-  "last_updated": "2026-10-09 07:15:02",
+  "signature": "7oAvEb7u3mfHMXFlWy5RyUrBHWRexYD+MzkItib8931ZcG5ul/ZKa0JIi0yuqUZ36hTotjhLmsd420gfDBOADw==",
+  "last_updated": "2026-10-09 07:29:10",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- chore: one 'pnpm gates' command for every local CI gate\n\n---"
+    "changelog": "- feat(contact-section): optional heading above the contact people\n\n---"
   }
 }
