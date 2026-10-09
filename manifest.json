@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.279",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.279.zip",
+  "version": "0.10.280",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.280.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "bb831a8af61894a5183c0af0f6ded69768841be73313b24a5670380d2cdb313b",
+  "sha256": "7c3d5d7c9b1895ab02e3e8fdb7f71076b90e82b28414635225f754254699818e",
   "signature_alg": "ed25519",
-  "signature": "mIIJXQ5D5cpdB6sfZtHhcYkrYHMa7xoabCahPwnpQQnmnc8IDmJkD1ZNUamMcBTS6qaxNpRA3Qe7g8KvSeMgDw==",
-  "last_updated": "2026-10-09 09:12:41",
+  "signature": "uGkI71ejNH9moWT5j4ERbAcMbcCNJWZNR9vQJm65Dn7IUP+e9khI6alxCYHjjlJ4nA/ShANMpHarrrJiYIvZAg==",
+  "last_updated": "2026-10-09 09:24:44",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(i18n): remaining blocks in English source; translatable align labels\n\n---"
+    "changelog": "- fix(collection): keep srcset and si"
   }
 }
