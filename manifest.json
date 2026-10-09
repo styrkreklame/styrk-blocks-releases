@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.280",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.280.zip",
+  "version": "0.10.281",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.281.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "7c3d5d7c9b1895ab02e3e8fdb7f71076b90e82b28414635225f754254699818e",
+  "sha256": "cb5e428d11283b8c5f40637547814212b1393381537ab38c73e525820433d47c",
   "signature_alg": "ed25519",
-  "signature": "uGkI71ejNH9moWT5j4ERbAcMbcCNJWZNR9vQJm65Dn7IUP+e9khI6alxCYHjjlJ4nA/ShANMpHarrrJiYIvZAg==",
-  "last_updated": "2026-10-09 09:24:44",
+  "signature": "7RZolkfeJO5JCfkZa1aOYt8PtcKS0sKBGhrKN8XCxwC7gSlUVVEyvO7q5CqY0EBGFw8EBEjERBafR6xdRuB1Bw==",
+  "last_updated": "2026-10-09 10:03:18",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(collection): keep srcset and si"
+    "changelog": "- fix(header): server-rendered header also lets Tab reach search in the open menu\n\n---"
   }
 }
