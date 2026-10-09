@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.277",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.277.zip",
+  "version": "0.10.278",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.278.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "758fbbae08d4b8d0265de5cc918c9adf33bf6ae74253b1bd61f32712ea6718b6",
+  "sha256": "2324bc57bc84811e4c7636abd2756bbe87ab6e2f24006a3a43e27e080d23d814",
   "signature_alg": "ed25519",
-  "signature": "ZPZRuR5ze9/ZBj4IUkWMMUmzPPlyF5RhjD9ETZxnvIlZZ4Lp0tcvFTv/IUOq5B61sdSins+oSaw9EIMQXvJcAQ==",
-  "last_updated": "2026-10-09 08:02:28",
+  "signature": "AImePO/YLRp3+9BTJToe4+B4vs3dy9yEw4vnsh+a06H81P8+s/PmbMFpWV+SbgstKwSk1HIW0116sH2/FjQECw==",
+  "last_updated": "2026-10-09 08:10:59",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(i18n): six more blocks in English source; feature-cards text domain\n\n---"
+    "changelog": "- chore: local visual-baseline gate in pnpm gates\n\n---"
   }
 }
