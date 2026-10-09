@@ -1,0 +1,46 @@
+# Minimal checks for the release channel. This repo only holds artifacts that
+# the source repo's Release workflow publishes, so the checks guard what client
+# sites read: a valid manifest that points at a zip which exists, matches its
+# sha256, unpacks cleanly and carries the same plugin version.
+name: PR checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            manifest.json
+            README.md
+          sparse-checkout-cone-mode: false
+
+      - name: Manifest is valid
+        id: manifest
+        run: |
+          jq -e '.slug == "styrk-blocks" and (.version|test("^[0-9]+\\.[0-9]+\\.[0-9]+$")) and (.download_url|type=="string") and (.sha256|test("^[0-9a-f]{64}$"))' manifest.json >/dev/null \
+            || { echo "::error file=manifest.json::missing or malformed slug/version/download_url/sha256"; exit 1; }
+          v=$(jq -r .version manifest.json)
+          zip="styrk-blocks-$v.zip"
+          [ "$(jq -r .download_url manifest.json)" = "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/$zip" ] \
+            || { echo "::error file=manifest.json::download_url does not point at $zip"; exit 1; }
+          grep -q "\`$v\`" README.md || { echo "::error file=README.md::current version is not $v"; exit 1; }
+          echo "version=$v" >> "$GITHUB_OUTPUT"
+          echo "zip=$zip" >> "$GITHUB_OUTPUT"
+
+      - name: Fetch the current zip
+        run: git sparse-checkout add "${{ steps.manifest.outputs.zip }}"
+
+      - name: Zip matches the manifest
+        run: |
+          zip="${{ steps.manifest.outputs.zip }}"
+          [ -f "$zip" ] || { echo "::error::$zip is missing"; exit 1; }
+          echo "$(jq -r .sha256 manifest.json)  $zip" | sha256sum -c -
+          unzip -tq "$zip"
+          unzip -p "$zip" styrk-blocks/styrk-blocks.php | grep -Eq "Version:[[:space:]]*${{ steps.manifest.outputs.version }}\$" \
+            || { echo "::error::styrk-blocks.php in $zip does not say Version: ${{ steps.manifest.outputs.version }}"; exit 1; }
