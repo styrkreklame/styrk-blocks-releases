@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.270",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.270.zip",
+  "version": "0.10.271",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.271.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "c1f9d319e1bec94ede60b4b0d432e737d5f7b524cc2ae8cdc745a0006562dc69",
+  "sha256": "83bc70d184156ba07dd2d504527f88ff7accaeb1e3cf8913d0a215ab2b8edd99",
   "signature_alg": "ed25519",
-  "signature": "/bg16PXgWnSsH4kwJeKUywrfWwHj0s347NcfQe8DrjE2oM3CPGnUORPkhkLmmUdbZD/7BRhMkhEJ86o/2nUTBQ==",
-  "last_updated": "2026-10-08 12:39:07",
+  "signature": "dWBnLMAiNxEbeAnDy6Ua3wIuP79NZodVGz6CSkhb/CwVhDVS3h8H1Gpdr3IZWumipL4Xi68bGkCmHouLhDibDg==",
+  "last_updated": "2026-10-09 06:08:59",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(i18n): editor translations load; hero labels in English source\n\n---"
+    "changelog": "- fix(editor): controller bar items share one height and midline\n\n---"
   }
 }
