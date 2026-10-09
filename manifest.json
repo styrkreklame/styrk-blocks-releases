@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.282",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.282.zip",
+  "version": "0.10.283",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.283.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "c6e21199221fa707894bee119d6ee4046aa4bd45c77007b9e98d4a3e6e135589",
+  "sha256": "fccb1350b58499270ece1635de5c07d74589d2bb282129c040543baee234a69f",
   "signature_alg": "ed25519",
-  "signature": "Q/AI00pSia0KeCbqfI2uU8YrvKHCPEC5STJaARpaHHqFKelW2YvDCZyq7QOaZKK6eJ/XZTd7+8V9qCbH+7OqBA==",
-  "last_updated": "2026-10-09 10:19:52",
+  "signature": "PWgzMh2Gk8n9c4W0sV2FPHNxZIIcaLWRI3c/6mLXAGCX8WedVPpRrAGxL6IUaAnTpGayKTrujW2YNEwKsC+dDg==",
+  "last_updated": "2026-10-09 10:42:37",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- perf(hero): responsive srcset and high priority for the single background image\n\n---"
+    "changelog": "- feat(ci): code-quality gate — fallow, PHPStan, PHPCS quality (ratcheted)\n\n---"
   }
 }
