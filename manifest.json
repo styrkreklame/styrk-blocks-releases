@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.288",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.288.zip",
+  "version": "0.10.289",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.289.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "31a513d2264f0b09695f39b4c1f14d3ddc9145929b000ffac92e499898e0a393",
+  "sha256": "50b755bc37460f1fe8bbb7cf416b5a30c51e0ee2cc36f986b1e57051d9e438a8",
   "signature_alg": "ed25519",
-  "signature": "ubeRqZlQ/rh1RoH0B2UeBeV4XYyRBftKvSbBVIkp8Fp+Qno6C/8y87jcEJD0E2WuLjW9BMR6VtnoB4UFP7B+CA==",
-  "last_updated": "2026-10-09 13:19:48",
+  "signature": "OjRkygYFhrRpmO5sYQp9vxYP5bmgDV0Tn2T3MxDUYCZdN6ek09IG2xpMcTrq/paWCSX9CU55zSQ1p0H8Y147AA==",
+  "last_updated": "2026-10-09 13:44:40",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(hero): video pause button comes after the content in tab order\n\n---"
+    "changelog": "- feat(header): server-rendered header on every site by default\n\n---"
   }
 }
