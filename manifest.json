@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.285",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.285.zip",
+  "version": "0.10.286",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.286.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "91457d3fb10e45c194c4de141576c8d35473c5eb43e9cb16d65f0f7f50720de2",
+  "sha256": "692783c068392c80bf2d3bb113ffedc086999da39b6acf8009a468869ef6d50b",
   "signature_alg": "ed25519",
-  "signature": "2O6mGN332rqLM5HpO1MBskuiUk0W0H0WcHC8ANycCn2ZaIV+9kpnX7urLsjJmBrvsl/Ai0rNEbRsjgvB9QvUDg==",
-  "last_updated": "2026-10-09 12:35:14",
+  "signature": "xTqjvF2L0E0xcHtc7r/20A5WiKBQYt97PC8NQkMEqqpJpgEYSDcaRylRbcUzlbVKpOfq7Q1i2euj7BeZCebfCw==",
+  "last_updated": "2026-10-09 12:40:26",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(a11y): skip link moves focus into the content on every site\n\n---"
+    "changelog": "- fix(search): WooCommerce products are labelled 'Produkt'\n\n---"
   }
 }
