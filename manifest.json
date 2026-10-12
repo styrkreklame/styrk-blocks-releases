@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.291",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.291.zip",
+  "version": "0.10.292",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.292.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "12adf5376c5d7d123be0a22eb9ff524a56ef5f28c8b63020fe1ba7eb3904470f",
+  "sha256": "e27a4bd028480761612447137b7a98183d7156f6559c1e518505d2d1116eb18b",
   "signature_alg": "ed25519",
-  "signature": "D3qODZoHXChtdutOJEaLNV87qA4XN/JnMezozKKlwQq+xFXyCyCyKBa6cfPfDLp2jdBJqfBUx5DKAGP70/fZBw==",
-  "last_updated": "2026-10-12 08:42:20",
+  "signature": "32xQf44rTe81nr7UoVd8eK3NEEQbWXhsBSKigt75ZqZb4tMhy22bheW7ZG5yiPuhGO2aRPuYclJOHwfo3Z2MBA==",
+  "last_updated": "2026-10-12 08:45:20",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- chore(deps): bump PHPCS/WPCS past security advisories\n\n---"
+    "changelog": "- fix(selection): dark text on the accent, theme reads the plugin's pair\n\n---"
   }
 }
