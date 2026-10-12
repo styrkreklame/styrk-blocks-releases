@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.302",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.302.zip",
+  "version": "0.10.303",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.303.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "d54dbbe13dce201d4079a51e1698e1378bf27a660d237d5f30dc37aadd2bc10d",
+  "sha256": "d817b0caa0e0b4e5c092d917259fb20d72234546301c5d844effa050fcc4de10",
   "signature_alg": "ed25519",
-  "signature": "LZ1Vk647nCtojiLX4KQcEIJx4VCBU1XSV5+XXWKtdka4go7gkJv/jkklTE1y9tsacEjRBzXafMC6Tqf65HTQDA==",
-  "last_updated": "2026-10-12 13:12:31",
+  "signature": "96h/7Jly05fu8nxBSQ/touwOzMb+U0hKmbR7aLVfPpUCk6c5zZhO7z9SWHxyaaa7DFYdVwqRYpHon87w3tCDBA==",
+  "last_updated": "2026-10-12 13:33:53",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix: no vertical hover motion; Process connector no longer crosses step text\n\n---"
+    "changelog": "- feat(blocks): layout variants for split-section, feature-cards and cta-band (#470)\n\n---"
   }
 }
