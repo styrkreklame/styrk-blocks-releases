@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.295",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.295.zip",
+  "version": "0.10.296",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.296.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "00aaf091dbea58da7aa3ee047a27e746aeb49a05ed17d6aa8032b3ee3f1b8286",
+  "sha256": "65d67e5e634db018e201b7cd6b17e3b2ed227b9bb2905301451da5fc02e08f85",
   "signature_alg": "ed25519",
-  "signature": "5M1zK1GiwXvFmdrqX+q9Id516pGMCBxu7ezsQ9zxxoJDxgzxkVo5gtW4JvLM1MwXWhM6xSzlCUndzFPnKKeqBA==",
-  "last_updated": "2026-10-12 09:21:43",
+  "signature": "h/X1AzX2IxmmghtZ+rhkfsIy+LfxuOjqSJkzXtzweFCwZ9mZkLapszh9QRdcRZWmOdo+uFoa5SZ30eooMcqEBA==",
+  "last_updated": "2026-10-12 10:30:25",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(mobile): centre section-header boxes and add media-grid header gutter\n\n---"
+    "changelog": "- test(e2e): editor change → save → reload → front end, in a real WordPress\n\n---"
   }
 }
