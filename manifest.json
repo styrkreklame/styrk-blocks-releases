@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.294",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.294.zip",
+  "version": "0.10.295",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.295.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "b25692fa2b91ee304224eea781a1e99735315ccb4cbd3ab58be82cdc9f4313d7",
+  "sha256": "00aaf091dbea58da7aa3ee047a27e746aeb49a05ed17d6aa8032b3ee3f1b8286",
   "signature_alg": "ed25519",
-  "signature": "QPg/0ot8iAEW5YA9OCig/kDCbtDVhrk+2h77bXQkR4w+PTseY7rSjuWkfMd8tfm3SrT+GdPD0NdUKXqno4boBg==",
-  "last_updated": "2026-10-12 09:13:47",
+  "signature": "5M1zK1GiwXvFmdrqX+q9Id516pGMCBxu7ezsQ9zxxoJDxgzxkVo5gtW4JvLM1MwXWhM6xSzlCUndzFPnKKeqBA==",
+  "last_updated": "2026-10-12 09:21:43",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(style): hover effects only on elements that can be clicked\n\n---"
+    "changelog": "- fix(mobile): centre section-header boxes and add media-grid header gutter\n\n---"
   }
 }
