@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.297",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.297.zip",
+  "version": "0.10.298",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.298.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "ef48fa54da45712e9efa834fbe1eb8e95e591fdeedd4fda03a46bdb337bc3948",
+  "sha256": "87be28124439d95b9bbb87cc9eb66db2f49926f647f8bcf6cc48d29003dd72a0",
   "signature_alg": "ed25519",
-  "signature": "lsdqLA5fhrz4JcDQAlD615JI2rA4Zje8r0BzVa18EZ4Htel5e+BocGjXMW3tDfSZYnx2Xt6k8OROrPhdihh1Aw==",
-  "last_updated": "2026-10-12 10:33:53",
+  "signature": "Yytydfr6j6ub/XQXwhLAvgRYkAsH1OX/hkchRwMdecrQKnuxwuvNvotxd6SdPB/rAeOrwzFo58D6jSc1Ra3yBg==",
+  "last_updated": "2026-10-12 12:18:51",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(ci): controls-API gate passes on main and runs in CI\n\n---"
+    "changelog": "- feat(editor): editor UX release — glossary, basic/advanced panels, alt text, radius, palette roles, hero layouts, Showcase block\n\n---"
   }
 }
