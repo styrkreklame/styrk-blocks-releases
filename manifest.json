@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.299",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.299.zip",
+  "version": "0.10.300",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.300.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "e0e442ccf87de8dc44836b441bacfe0c25f7cedaef35a14fa3829c5e5d5e373d",
+  "sha256": "78ba3e6c70efa5d2368dd180c562f08d23eda37f9223edaa1a2a11c02d3938f1",
   "signature_alg": "ed25519",
-  "signature": "Ey0vVerr3mzLsFO7aoPHCOsrKbNCMuNyN26bIGwd7aHUhyIONaYeWRYwllPIbovFzQeNg8cDg+pVgEs2potPBA==",
-  "last_updated": "2026-10-12 12:40:56",
+  "signature": "xvG2AyOUh+YRnUYvWYld+w/As6w86+A08ZXp1OMA2C1k4OCw+sc13eaNJsMZ+1Kz6ClWO1Mwee5xXC84pRgnBA==",
+  "last_updated": "2026-10-12 12:59:25",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(post-cards): category pill text picked by contrast\n\n---"
+    "changelog": "- feat(editor): strict basic/advanced split and one option-panel layout (#494)\n\n---"
   }
 }
