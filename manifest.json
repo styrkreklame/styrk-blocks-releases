@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.293",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.293.zip",
+  "version": "0.10.294",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.294.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "5b36c9c30bcc503b09975ec1820457bf0afdf7d6b911f410ac4a318f556ecf83",
+  "sha256": "b25692fa2b91ee304224eea781a1e99735315ccb4cbd3ab58be82cdc9f4313d7",
   "signature_alg": "ed25519",
-  "signature": "SIaPnZ7Q3gPJwy9kGIfP3hvxQrsh5VRJj20drqQm1Szc69D3UL2Oy43tH7xXw3ARP2PttA+wX2jPhuPgvHTIAA==",
-  "last_updated": "2026-10-12 08:48:46",
+  "signature": "QPg/0ot8iAEW5YA9OCig/kDCbtDVhrk+2h77bXQkR4w+PTseY7rSjuWkfMd8tfm3SrT+GdPD0NdUKXqno4boBg==",
+  "last_updated": "2026-10-12 09:13:47",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(feature-cards): icon stays visible with a light accent\n\n---"
+    "changelog": "- fix(style): hover effects only on elements that can be clicked\n\n---"
   }
 }
