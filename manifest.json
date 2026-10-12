@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.298",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.298.zip",
+  "version": "0.10.299",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.299.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "87be28124439d95b9bbb87cc9eb66db2f49926f647f8bcf6cc48d29003dd72a0",
+  "sha256": "e0e442ccf87de8dc44836b441bacfe0c25f7cedaef35a14fa3829c5e5d5e373d",
   "signature_alg": "ed25519",
-  "signature": "Yytydfr6j6ub/XQXwhLAvgRYkAsH1OX/hkchRwMdecrQKnuxwuvNvotxd6SdPB/rAeOrwzFo58D6jSc1Ra3yBg==",
-  "last_updated": "2026-10-12 12:18:51",
+  "signature": "Ey0vVerr3mzLsFO7aoPHCOsrKbNCMuNyN26bIGwd7aHUhyIONaYeWRYwllPIbovFzQeNg8cDg+pVgEs2potPBA==",
+  "last_updated": "2026-10-12 12:40:56",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(editor): editor UX release — glossary, basic/advanced panels, alt text, radius, palette roles, hero layouts, Showcase block\n\n---"
+    "changelog": "- fix(post-cards): category pill text picked by contrast\n\n---"
   }
 }
