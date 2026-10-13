@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.305",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.305.zip",
+  "version": "0.10.306",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.306.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "e76a352b0515cdcb500dc8f11edd79c4a7831de8a86dbc85498eb776d231db6b",
+  "sha256": "fff13a2014091f4610243b02c203b6f5affd1fea62bcb312fe0a24e86a6df290",
   "signature_alg": "ed25519",
-  "signature": "Ym6Mu8V0VWx72fC96dXs9KTt0KD9rv3nfWwqwfsx3oIUVpJsqgxuc+UsyuU/GopOt8udc8e397exA21hQ7fGAg==",
-  "last_updated": "2026-10-13 06:29:06",
+  "signature": "ovQ+ruQIefyMdZuTsUkGSUH7oUWllVYaVRgCUIKmULsmjOj4x1vXU0A0DpmwHAn6Y7Zs5FFTQCO3PBSH3UTHAQ==",
+  "last_updated": "2026-10-13 06:42:44",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(editor): basic/advanced split for split-section, feature-cards and cta-band (#494)\n\n---"
+    "changelog": "- fix(editor): sentence-case option labels instead of uppercase\n\n---"
   }
 }
