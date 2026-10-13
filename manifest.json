@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.303",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.303.zip",
+  "version": "0.10.304",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.304.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "d817b0caa0e0b4e5c092d917259fb20d72234546301c5d844effa050fcc4de10",
+  "sha256": "ff9811a988a5c039cb1800b0f02cccc9de4eec03030d2d21ef593938d97166fc",
   "signature_alg": "ed25519",
-  "signature": "96h/7Jly05fu8nxBSQ/touwOzMb+U0hKmbR7aLVfPpUCk6c5zZhO7z9SWHxyaaa7DFYdVwqRYpHon87w3tCDBA==",
-  "last_updated": "2026-10-12 13:33:53",
+  "signature": "PMO9Y309/g1OjlAUE8jhZa5Q12OrF6wHdsP4204XYtH/P1kC8yxunR3x2WScSSwTHHWNewRq2qRuXLCNHoiBDA==",
+  "last_updated": "2026-10-13 06:20:00",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(blocks): layout variants for split-section, feature-cards and cta-band (#470)\n\n---"
+    "changelog": "- chore(lint): add pnpm fix <file...> and a format-scope gate\n\n---"
   }
 }
