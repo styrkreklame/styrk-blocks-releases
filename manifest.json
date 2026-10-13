@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.304",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.304.zip",
+  "version": "0.10.305",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.305.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "ff9811a988a5c039cb1800b0f02cccc9de4eec03030d2d21ef593938d97166fc",
+  "sha256": "e76a352b0515cdcb500dc8f11edd79c4a7831de8a86dbc85498eb776d231db6b",
   "signature_alg": "ed25519",
-  "signature": "PMO9Y309/g1OjlAUE8jhZa5Q12OrF6wHdsP4204XYtH/P1kC8yxunR3x2WScSSwTHHWNewRq2qRuXLCNHoiBDA==",
-  "last_updated": "2026-10-13 06:20:00",
+  "signature": "Ym6Mu8V0VWx72fC96dXs9KTt0KD9rv3nfWwqwfsx3oIUVpJsqgxuc+UsyuU/GopOt8udc8e397exA21hQ7fGAg==",
+  "last_updated": "2026-10-13 06:29:06",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- chore(lint): add pnpm fix <file...> and a format-scope gate\n\n---"
+    "changelog": "- feat(editor): basic/advanced split for split-section, feature-cards and cta-band (#494)\n\n---"
   }
 }
