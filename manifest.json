@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.310",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.310.zip",
+  "version": "0.10.311",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.311.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "885ad91c7f9796d4a45817051018cab0ce682a2517f022d4408b1d8ecd6de97e",
+  "sha256": "f1837250d2b96eb0a407b090413e27e6be6393e91710240e07df141800f83f9e",
   "signature_alg": "ed25519",
-  "signature": "sq44pLxu+PdL1DhRfaHecQKKb84/sEbOrySiCJq5wAFlPtBya48Qptui6DLL6eLid3fvFR8W+IWw7r6NBQgLDw==",
-  "last_updated": "2026-10-14 07:27:56",
+  "signature": "PtXk5M9wxmTzLmkv8OSmf+R7GnD5lsOVuXY+Ik3oCL+zYqJaWrDf2llJUqM0XAzAtqIXuYG/N3I8XZmFz4V/CQ==",
+  "last_updated": "2026-10-14 08:32:48",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(chat): cost guards, tappable links, question stays on top\n\n---"
+    "changelog": "- fix(editor): hover rings never flash a second colour\n\n---"
   }
 }
