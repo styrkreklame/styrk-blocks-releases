@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.307",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.307.zip",
+  "version": "0.10.308",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.308.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "8f5a454771f2edcf1185c6690364b0f9a7ad9937a42f82afd9fd500e6933a137",
+  "sha256": "3c61aeee74eb0d84fe464d2abf3918f173525efdb1d7107c2e3ecf99794e041e",
   "signature_alg": "ed25519",
-  "signature": "ZkwMIPSBPryeCWA22tTg8Lxsj/rBhyGHh9XqmTmda0yWYU/VLXWM1qoqkCKbovQwfezRgp6egqnfLZFSXcyCAQ==",
-  "last_updated": "2026-10-13 08:42:05",
+  "signature": "7eETU97JSXbKnFMFsa/nc/8JPhyvTKPRrvsGshqaxAjvecl1zalXwQApjCa/etSR2BUn0f2SYLsBSLgP7RtXAg==",
+  "last_updated": "2026-10-14 06:39:25",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(chat): built-in AI assistant (Settings → Chat)\n\n---"
+    "changelog": "- Update ci.yml\n\n---"
   }
 }
