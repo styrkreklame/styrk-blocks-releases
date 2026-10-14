@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.309",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.309.zip",
+  "version": "0.10.310",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.310.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "4b290cda4a21770d3771ee7963503b8b27e08b0596333592e5f4b3ee0d3863cb",
+  "sha256": "885ad91c7f9796d4a45817051018cab0ce682a2517f022d4408b1d8ecd6de97e",
   "signature_alg": "ed25519",
-  "signature": "g9IM6g3kqhVrS8xrx3/Cl51XZrryFp7bmsg7cmLHPQnWs0/vUsm7HlcgkdeLFXBpihNEIMYyJ2dV/lOnCoNnBQ==",
-  "last_updated": "2026-10-14 07:19:43",
+  "signature": "sq44pLxu+PdL1DhRfaHecQKKb84/sEbOrySiCJq5wAFlPtBya48Qptui6DLL6eLid3fvFR8W+IWw7r6NBQgLDw==",
+  "last_updated": "2026-10-14 07:27:56",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- cta-band on the content rail, outline icon twins, Showcase arrow not underlined\n\n---"
+    "changelog": "- feat(chat): cost guards, tappable links, question stays on top\n\n---"
   }
 }
