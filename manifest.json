@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.312",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.312.zip",
+  "version": "0.10.313",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.313.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "a133262f22578b4e2a291109083cebfdf67f78e2bc0ecf727f2398c2c251ca2d",
+  "sha256": "03a25bb1bbb95520f052499b8d26cd30c302a4591ef9ddd524828a9cde78d350",
   "signature_alg": "ed25519",
-  "signature": "bxXo1aaYHmGzz/B+qaw7iHsrDsjnUvMPj4iLlxmoItxzkuEz/0tsrgazWecEFcc9mu1v7VphwoL/pOcZRlicBQ==",
-  "last_updated": "2026-10-20 06:39:30",
+  "signature": "dDZGT67Mf6218jb98D2KRyjlZcDKtnflb+kdYSDoDsUc6PohLv+zM2yMNUMa7OIJ43RXXtDqF6qnGgf29FtQAA==",
+  "last_updated": "2026-10-20 07:09:45",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- ci: pin runners to ubuntu-24.04\n\n---"
+    "changelog": "- fix(chat): service questions end with a contact invite\n\n---"
   }
 }
