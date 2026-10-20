@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.314",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.314.zip",
+  "version": "0.10.315",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.315.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "49dc02bf008f53e5822a6bccf9a7cbc2216dda3d15bd93042e327459eb414812",
+  "sha256": "af370ff9c6e4f0c92ba192891a3a0f2953abf0181443e09ae24219603e00ccca",
   "signature_alg": "ed25519",
-  "signature": "IJQUO3x4oYpa2ZkYyKU5fuWgxzH9W7rz/8dP3OAy5rcJ7A6hSBwpB1E4A+umQCXrj+KdkGYwimYnmEGcXliHAQ==",
-  "last_updated": "2026-10-20 07:19:25",
+  "signature": "tMaoyXMfuf5SvYjzxE5joQ0saKNIf4KVm01QXKkTZOHslMeZlShNWeBOeacZ+CZCuAoFNsYnlQqHbCLR6GyXBQ==",
+  "last_updated": "2026-10-20 07:47:27",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(contact): form gutter is a gap, so wrapped fields are not indented\n\n---"
+    "changelog": "- ci: E2E job gets 20 minutes\n\n---"
   }
 }
