@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.317",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.317.zip",
+  "version": "0.10.318",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.318.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "fbf87345f677f74266604e713beebcd93d64e5bfe908f45dc2ccebd43c81c653",
+  "sha256": "c8461d27c5ca1b39b46829423ad79fdc3a7bbd17c8cff11f06b0a819503ff6da",
   "signature_alg": "ed25519",
-  "signature": "aYmzS41oxRSV48ikR6yoYgbp/wNszUS8giPNK+L8xD2/188Bc8aydVwjlTuoW+cCc0BvfLMflArxvoa92fJlCw==",
-  "last_updated": "2026-10-20 09:15:49",
+  "signature": "f9mHZKYXNGp+hIVUOsfZug6tD50ePV/wdlHEPEMEvj5+FfFDgtriTGsSpdetEbpFbFIfaKUvJf7ZT3iFGNfMDQ==",
+  "last_updated": "2026-10-20 09:35:47",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(chat): stem Norwegian endings so retrieval matches compounds and inflections\n\n---"
+    "changelog": "- fix(contact-section): row labels share the hours heading si"
   }
 }
