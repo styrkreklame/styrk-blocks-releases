@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.316",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.316.zip",
+  "version": "0.10.317",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.317.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "5952d952c2e9bd6a8a54f2dd68b1498a939aa7d36f9e6331c6bd36d395e699f1",
+  "sha256": "fbf87345f677f74266604e713beebcd93d64e5bfe908f45dc2ccebd43c81c653",
   "signature_alg": "ed25519",
-  "signature": "XZ3hPra0Lv/1DTBElUv5b+Hv9Dd1m5AQaJAfBFWVMoCuJYu8EJtDfakK/pvYX73i9O0AqFOkaDcqYELg7MT5Aw==",
-  "last_updated": "2026-10-20 08:14:30",
+  "signature": "aYmzS41oxRSV48ikR6yoYgbp/wNszUS8giPNK+L8xD2/188Bc8aydVwjlTuoW+cCc0BvfLMflArxvoa92fJlCw==",
+  "last_updated": "2026-10-20 09:15:49",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- Integration 2026-10-20: feature-cards photo/action rows, site-chooser logo, editor hover, CTA inline, testimonials, contact hours, chat\n\n---"
+    "changelog": "- fix(chat): stem Norwegian endings so retrieval matches compounds and inflections\n\n---"
   }
 }
