@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.320",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.320.zip",
+  "version": "0.10.321",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.321.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "127fb050d83235a6620d6bacfa4abcfeffcd3eb614265e5f6e90df12712c6ded",
+  "sha256": "19172c94fcdb03eb02f8d671871f7b7d875352a2caa75864cba88d7d74bafcf0",
   "signature_alg": "ed25519",
-  "signature": "ph0t8nhWyrA6A6EvBWDtkh1hsk4LhFErLT1bQ5/ljuTAfOnnQTJy928G9Oa7BOc51mVaPerBWJVlT/REuwlBAg==",
-  "last_updated": "2026-10-20 11:14:36",
+  "signature": "pRvmCJ1jhfjT6rc/mHlBul/F9oFryoGFvsoHn/xyZBC3Sx+3qC82TZnH9jkdiebjTTbBhc/cvqP5p8tbLBXDCA==",
+  "last_updated": "2026-10-20 12:08:52",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(chat): build the standalone Styrk Chatbot plugin from the chat code\n\n---"
+    "changelog": "- fix(contact-section): row labels never split a word across lines\n\n---"
   }
 }
