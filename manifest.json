@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.311",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.311.zip",
+  "version": "0.10.312",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.312.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "f1837250d2b96eb0a407b090413e27e6be6393e91710240e07df141800f83f9e",
+  "sha256": "a133262f22578b4e2a291109083cebfdf67f78e2bc0ecf727f2398c2c251ca2d",
   "signature_alg": "ed25519",
-  "signature": "PtXk5M9wxmTzLmkv8OSmf+R7GnD5lsOVuXY+Ik3oCL+zYqJaWrDf2llJUqM0XAzAtqIXuYG/N3I8XZmFz4V/CQ==",
-  "last_updated": "2026-10-14 08:32:48",
+  "signature": "bxXo1aaYHmGzz/B+qaw7iHsrDsjnUvMPj4iLlxmoItxzkuEz/0tsrgazWecEFcc9mu1v7VphwoL/pOcZRlicBQ==",
+  "last_updated": "2026-10-20 06:39:30",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(editor): hover rings never flash a second colour\n\n---"
+    "changelog": "- ci: pin runners to ubuntu-24.04\n\n---"
   }
 }
