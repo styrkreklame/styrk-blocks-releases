@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.315",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.315.zip",
+  "version": "0.10.316",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.316.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "af370ff9c6e4f0c92ba192891a3a0f2953abf0181443e09ae24219603e00ccca",
+  "sha256": "5952d952c2e9bd6a8a54f2dd68b1498a939aa7d36f9e6331c6bd36d395e699f1",
   "signature_alg": "ed25519",
-  "signature": "tMaoyXMfuf5SvYjzxE5joQ0saKNIf4KVm01QXKkTZOHslMeZlShNWeBOeacZ+CZCuAoFNsYnlQqHbCLR6GyXBQ==",
-  "last_updated": "2026-10-20 07:47:27",
+  "signature": "XZ3hPra0Lv/1DTBElUv5b+Hv9Dd1m5AQaJAfBFWVMoCuJYu8EJtDfakK/pvYX73i9O0AqFOkaDcqYELg7MT5Aw==",
+  "last_updated": "2026-10-20 08:14:30",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- ci: E2E job gets 20 minutes\n\n---"
+    "changelog": "- Integration 2026-10-20: feature-cards photo/action rows, site-chooser logo, editor hover, CTA inline, testimonials, contact hours, chat\n\n---"
   }
 }
