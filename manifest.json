@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.318",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.318.zip",
+  "version": "0.10.319",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.319.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "c8461d27c5ca1b39b46829423ad79fdc3a7bbd17c8cff11f06b0a819503ff6da",
+  "sha256": "9278da660a025f7484e7ab361887ca47ebca5470be0491e0befee54e620e92ae",
   "signature_alg": "ed25519",
-  "signature": "f9mHZKYXNGp+hIVUOsfZug6tD50ePV/wdlHEPEMEvj5+FfFDgtriTGsSpdetEbpFbFIfaKUvJf7ZT3iFGNfMDQ==",
-  "last_updated": "2026-10-20 09:35:47",
+  "signature": "gBH4/c1LbhXtEBRZyDdiKnEv9OwmcHQ/yMZzSWQHxzj69DYHIbnocPJA2h4q4C80/RGQd8i0gYuJonkcs734Cw==",
+  "last_updated": "2026-10-20 09:56:21",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(contact-section): row labels share the hours heading si"
+    "changelog": "- fix(contact-section): header CTA buttons 18px for readability\n\n---"
   }
 }
