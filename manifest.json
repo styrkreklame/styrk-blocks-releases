@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.328",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.328.zip",
+  "version": "0.10.329",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.329.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "d494114c65eeaffb63dbd0c27fc3492576d9db4d1a4486a25e807582a022eae4",
+  "sha256": "58dfb80179adbc66f8e3c93a5bb4959fee20332e9fc8b38570a563a5d9880931",
   "signature_alg": "ed25519",
-  "signature": "o0eO3S4KoysyOrGcbsHvrSnwPKIqQnXHTWStf98+/ndMAUV7pcZuI2UAWfOr+njRkCs8O7SCeCAK6+iAJsooBA==",
-  "last_updated": "2026-10-22 13:03:09",
+  "signature": "CFD9ufmx/D7og5lR4FV+NO2VvjNR0BreYQuYPZshxlduF4VxwC5NvLxZQd6fGJk8FRw6ShBTZUacAjXC0SJPCQ==",
+  "last_updated": "2026-10-22 13:38:58",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(admin): redesigned Settings → Search and Chat + wider kit panel (#549)\n\n---"
+    "changelog": "- feat(admin): Settings → Footer («Bunnfelt») redesign\n\n---"
   }
 }
