@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.326",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.326.zip",
+  "version": "0.10.327",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.327.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "b85d1b11f16285cf3bfd87625a284f460ad6c62ae3fd58ab1f80a0492d731734",
+  "sha256": "7c637dc059af5b6a7a80935f35caafc7d3408b3882719a7168a405bd22ce5ba5",
   "signature_alg": "ed25519",
-  "signature": "U1dVF9CwzrfnDAHoXNRPSejenhQGN0gWwdA8wBrev+3oGteEt29nYIkTSTjCEDuaJB3TAAqqIJ4O5o3s6ksOAw==",
-  "last_updated": "2026-10-22 10:06:51",
+  "signature": "JBMd4npxFzCrkMR3R69eDMyPc+aVF59dRsmOSDzZuF6a1P/622Nd7Ef/3gaXWXTVayGONFri+L9JfP7jnaztBg==",
+  "last_updated": "2026-10-22 10:31:46",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(header): hide-on-scroll header comes back on a slow scroll up\n\n---"
+    "changelog": "- feat: Alle sider block and footer link to the sitemap page\n\n---"
   }
 }
