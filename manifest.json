@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.325",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.325.zip",
+  "version": "0.10.326",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.326.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "576814b2e90a2fced5c3d0dee24663e0113e23ad5d7c861c48feabf4534056dd",
+  "sha256": "b85d1b11f16285cf3bfd87625a284f460ad6c62ae3fd58ab1f80a0492d731734",
   "signature_alg": "ed25519",
-  "signature": "cgImvKHo25DM8OyzYVazEBnNCK96mW+E601KzMtLCqvXWtfGzWb2ZyOReYA/24rl0IHKsrgYfh8wyvRsnTawDg==",
-  "last_updated": "2026-10-22 09:42:48",
+  "signature": "U1dVF9CwzrfnDAHoXNRPSejenhQGN0gWwdA8wBrev+3oGteEt29nYIkTSTjCEDuaJB3TAAqqIJ4O5o3s6ksOAw==",
+  "last_updated": "2026-10-22 10:06:51",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(admin): shared settings UI kit + redesigned Settings → Header (#549)\n\n---"
+    "changelog": "- fix(header): hide-on-scroll header comes back on a slow scroll up\n\n---"
   }
 }
