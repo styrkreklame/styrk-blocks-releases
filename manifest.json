@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.323",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.323.zip",
+  "version": "0.10.324",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.324.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "4f0ae1f5dd6df28b5e942554a83e9fac4a0b3b2c68f1decf0ef2e1cab1d3b66a",
+  "sha256": "efa77601c8ead8176db07d64803e90f4fa0eaf234d9ddf1631f9a562f448fb4d",
   "signature_alg": "ed25519",
-  "signature": "1S6S/kNneQCa0CuuOoiipI5oY+bJ/Q9SGJ/qej7fgYHDwjik4rNDCXs8Wm/53qgUddUZj98w9yDxPaZC5sELCA==",
-  "last_updated": "2026-10-20 15:36:45",
+  "signature": "UK8Uf09iD8K0y1PZNPx3hvqAhgqXDs3RukzEyxU+tTY3T/8rbjaFk+FlDEiWH2nKtmN+tOmhZiIFsdQ6A2W0Bw==",
+  "last_updated": "2026-10-22 07:11:25",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(page-header): text colour reaches every part; left/centre/right alignment\n\n---"
+    "changelog": "- feat(header): megamenu lists a third menu level\n\n---"
   }
 }
