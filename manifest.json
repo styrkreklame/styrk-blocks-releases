@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.329",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.329.zip",
+  "version": "0.10.330",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.330.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "58dfb80179adbc66f8e3c93a5bb4959fee20332e9fc8b38570a563a5d9880931",
+  "sha256": "8d5d0783428dde9b3723c2d99e019163424de968ce4a7c8fd7404389637af8be",
   "signature_alg": "ed25519",
-  "signature": "CFD9ufmx/D7og5lR4FV+NO2VvjNR0BreYQuYPZshxlduF4VxwC5NvLxZQd6fGJk8FRw6ShBTZUacAjXC0SJPCQ==",
-  "last_updated": "2026-10-22 13:38:58",
+  "signature": "UGZyfNDLE4YtReTf6Z4rKWjnGJXxiVRMgZ8ldTur1LxLxSVIafqIDtWT+yQtOSFmlS4408nA8vq2D5V9D67PAg==",
+  "last_updated": "2026-10-23 07:03:43",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(admin): Settings → Footer («Bunnfelt») redesign\n\n---"
+    "changelog": "- fix(chat): launcher lifts above the footer bottom bar at the end of the page\n\n---"
   }
 }
