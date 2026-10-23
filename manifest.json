@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.330",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.330.zip",
+  "version": "0.10.331",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.331.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "8d5d0783428dde9b3723c2d99e019163424de968ce4a7c8fd7404389637af8be",
+  "sha256": "9a08737f703fb6d69d9f38c2f0db0154108528fb1d2afdf82026d6b79d3d6d5a",
   "signature_alg": "ed25519",
-  "signature": "UGZyfNDLE4YtReTf6Z4rKWjnGJXxiVRMgZ8ldTur1LxLxSVIafqIDtWT+yQtOSFmlS4408nA8vq2D5V9D67PAg==",
-  "last_updated": "2026-10-23 07:03:43",
+  "signature": "+HsT9vOlag6YBFm9AjbWQWKUYaFbZnYWwjbZPIrrQRuj+Oei9CGdhZgQgcxA8Y3/NSD8+dpnQhr9pBITvXL2Bg==",
+  "last_updated": "2026-10-23 07:34:25",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(chat): launcher lifts above the footer bottom bar at the end of the page\n\n---"
+    "changelog": "- fix(header): megamenu Tab cycle includes logo and CTA; Shift+Tab never gets stuck\n\n---"
   }
 }
