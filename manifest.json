@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.337",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.337.zip",
+  "version": "0.10.338",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.338.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "4ebeb6d69cafca2f31bb8b99daba670838dd974c948c53e3900e853c55675324",
+  "sha256": "6acc54f221ce907dd3906ed49f91152ef5b5b6b2cc15d6cadc7755c19336ee23",
   "signature_alg": "ed25519",
-  "signature": "kaE38YxZV1H6EZaxK30xV+u+dBfP9RY8YHUKiwv1E8Dla0RtIGYyo967cppR6HwrcnOeziiiCdtalzIoBtTpAA==",
-  "last_updated": "2026-10-26 11:21:54",
+  "signature": "vYvPRWeqKLuuMsjIasompkLK4VqgDRpsLLcWC0ftfN/4lgZPFJ2m92lNfagbCbEXcg7vFdjPlPnFDr6tQJ/qBA==",
+  "last_updated": "2026-10-26 12:03:30",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(aktuelt): editor panel v1 — named parts, style presets, phone-only values\n\n---"
+    "changelog": "- fix: a11y and layout fixes from the 1.0 QA (#561–#567, #542, #543)\n\n---"
   }
 }
