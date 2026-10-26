@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.335",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.335.zip",
+  "version": "0.10.336",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.336.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "956802c86115986e4c5ef85f7f309afa9000605ec553a02edc631e6b63f0a9d9",
+  "sha256": "d7a7c9833f269605b9a309cca2fd29ca33de5d8b40ea6f9a3ed6174cc9ef3b5c",
   "signature_alg": "ed25519",
-  "signature": "RoORyNysdTgQ2EY+7MFlqft4okp9nW4t835kUMi6++WlGdmcarWfkVNRO2dvI0mmiIs+5UUyAuzB5wkPU+pkCQ==",
-  "last_updated": "2026-10-26 10:21:58",
+  "signature": "kL8Dydj2secvvMAD21CaMZAHKXzAhk3TZ7bmlPQLvfQrs51C1STdUXBPHKi/6GLyO+DtcVeRaQazRwAEIZlLDA==",
+  "last_updated": "2026-10-26 11:08:21",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- chore(gates): visual-baseline gate reports PENDING for a branch-only push\n\n---"
+    "changelog": "- test(e2e): reuse the fixture categories when beforeAll runs again\n\n---"
   }
 }
