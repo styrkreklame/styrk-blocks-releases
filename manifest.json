@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.333",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.333.zip",
+  "version": "0.10.334",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.334.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "39af1d6c5e014842581666a23d0492f8a7a971fd1bbc1533cc65e97fbad01e07",
+  "sha256": "072f15d2fbb487f0c6c5ac1ed733167065d2ff1a6c4addc14e5b47f52e68225c",
   "signature_alg": "ed25519",
-  "signature": "qvgnLKNGTMAWdMR0b5e0SrNu3y0liW26J4YqWgkERLjj6WMrp+OV9rWn7lBpYRV6S9jbf8R+mhCZ8Jpm0pFcDQ==",
-  "last_updated": "2026-10-26 07:19:14",
+  "signature": "IoO6yB4BLUPkHcja7xV8JUxxQGIb+t/XEo8R1/at+zcjWz69RWdiHSULXwJC+pAr/+dN2eroRj8OutiO0Ug0Cw==",
+  "last_updated": "2026-10-26 07:25:04",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(chat): only Styrk logins listed in wp-config can open Settings → Chat\n\n---"
+    "changelog": "- test(e2e): editor-save-front-end coverage for all 33 blocks\n\n---"
   }
 }
