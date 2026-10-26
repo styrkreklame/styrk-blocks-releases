@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.336",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.336.zip",
+  "version": "0.10.337",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.337.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "d7a7c9833f269605b9a309cca2fd29ca33de5d8b40ea6f9a3ed6174cc9ef3b5c",
+  "sha256": "4ebeb6d69cafca2f31bb8b99daba670838dd974c948c53e3900e853c55675324",
   "signature_alg": "ed25519",
-  "signature": "kL8Dydj2secvvMAD21CaMZAHKXzAhk3TZ7bmlPQLvfQrs51C1STdUXBPHKi/6GLyO+DtcVeRaQazRwAEIZlLDA==",
-  "last_updated": "2026-10-26 11:08:21",
+  "signature": "kaE38YxZV1H6EZaxK30xV+u+dBfP9RY8YHUKiwv1E8Dla0RtIGYyo967cppR6HwrcnOeziiiCdtalzIoBtTpAA==",
+  "last_updated": "2026-10-26 11:21:54",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- test(e2e): reuse the fixture categories when beforeAll runs again\n\n---"
+    "changelog": "- feat(aktuelt): editor panel v1 — named parts, style presets, phone-only values\n\n---"
   }
 }
