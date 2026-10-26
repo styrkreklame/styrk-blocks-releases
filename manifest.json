@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.340",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.340.zip",
+  "version": "0.10.341",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.341.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "6ba6214a12257b1807adc794491faf52fd12d58a5e04d206d0bf42cd205b6e43",
+  "sha256": "ca4bdd8e9b0955cb0e0972798f1355ac77fa961b46f49af63cf2d4caefc75e6f",
   "signature_alg": "ed25519",
-  "signature": "bkyP94fg5piQPI1oWza3GgXKQMi9+3m/UDhmSxDajoAGXZkZaSsoT+Z3ffMtUZsnjOAJEn0gK9VNzIne/eoKDQ==",
-  "last_updated": "2026-10-26 13:45:07",
+  "signature": "OIh+Iw22tmYCgZnsa4XOjF6mno3jI3RpuNmEMGqhc4sb6EV240rRJnTktVBO8bSJvRmsk/ohioJpDnsCuBPpBQ==",
+  "last_updated": "2026-10-26 14:33:07",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix: QA round 2 — all open styrk-blocks issues in one PR\n\n---"
+    "changelog": "- fix(chat): administrators with a Styrk e-mail get Chat settings on every site, no wp-config needed\n\n---"
   }
 }
