@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.343",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.343.zip",
+  "version": "1.0.0",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.0.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "87097aa899cdbcb6794103d8b72b1f2728db9cebc1727fa567ae4eda5ee7acf8",
+  "sha256": "a433a1e4db88fb6e6dbaf5f31c0efe6f7c304ef2e6f3bb8a63c264fa6b20f20b",
   "signature_alg": "ed25519",
-  "signature": "4WiPB7mOQn9Nuvsl8M4BZwAQdojIztDFHgSIfnt0a1jQJsMtm1g8RvT5DwvlaWcedTVdaFQe3D+OwIqfi0LsDQ==",
-  "last_updated": "2026-10-27 06:57:03",
+  "signature": "OkUgPnLbZZCqYgB78IiLTsA0Q+MlMmrr+OAeQ7S1Fga5vGU1R/Omv63gJXtHGMT8GLo3touNk2EZis9K8esEBg==",
+  "last_updated": "2026-10-27 08:02:42",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(admin): Header, Footer and Search settings grouped by task; chatbot"
+    "changelog": "First stable release, after a full QA of every block (2026-10-23 to 2026-10-27).\n\n- **QA:** all 33 blocks tested at 320–3840px with axe-core (WCAG 2.2 AA) and IBM Equal Access, keyboard walk, and editor → save → front-end E2E coverage for every block. Every finding fixed (#542, #543, #561–#567, #575–#578).\n- **Editor:** neutral editor panel colours with theme overrides (#545), aligned control rows and a calm advanced section (#544), plain-language contrast warning (#547), News block v1 panel (#546), feature-cards «Steg» layout (#580).\n- **Settings:** Header, Footer and Search grouped by task (#549).\n- **Chat:** Styrk sees all Chat settings; clients see them only once a key is active, without key, limits or robot check (#568, #583). Clearer answers, no why-spirals, crisp feedback icons (#537).\n- **Releases:** the standalone chatbot"
   }
 }
