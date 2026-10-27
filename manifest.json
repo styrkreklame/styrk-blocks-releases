@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "0.10.342",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.342.zip",
+  "version": "0.10.343",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-0.10.343.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "486afd7b946794d95d288753c897e3c8e0883427ed86fd5733a984422ceb9fe7",
+  "sha256": "87097aa899cdbcb6794103d8b72b1f2728db9cebc1727fa567ae4eda5ee7acf8",
   "signature_alg": "ed25519",
-  "signature": "beuQ/dsLdJ9MZPzgi0HqRHSqFXOke9I23NM7qG0FdTP8wWuan3of9sIiYWQrpHsHPVe1umNfxVlTPrYk/hbeCQ==",
-  "last_updated": "2026-10-27 06:42:16",
+  "signature": "4WiPB7mOQn9Nuvsl8M4BZwAQdojIztDFHgSIfnt0a1jQJsMtm1g8RvT5DwvlaWcedTVdaFQe3D+OwIqfi0LsDQ==",
+  "last_updated": "2026-10-27 06:57:03",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(chat): clients see Chat once Styrk has activated it, without key, limits or robot check\n\n---"
+    "changelog": "- feat(admin): Header, Footer and Search settings grouped by task; chatbot"
   }
 }
