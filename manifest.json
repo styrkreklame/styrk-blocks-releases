@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "1.0.2",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.2.zip",
+  "version": "1.0.3",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.3.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "decbf5509c72290d2fbc3ff3ca84bb7ae24f6bd541a951e0f6d5303949070370",
+  "sha256": "dde71ea8ab19c1020cada3c3011c20047ad52976ee6e62713ff382dfaea35b85",
   "signature_alg": "ed25519",
-  "signature": "z8D1Gr71YCXdQjN+YbyBIKhJBQgW6D82iat7Q5I12Bz2R0unGXPY8mXmzPoKFWkzDZcbWfQ0xky+GE54QOUSCQ==",
-  "last_updated": "2026-10-27 13:45:37",
+  "signature": "IaEVzxSdXsciCTXq/SbkROgi315IdoS4x8c+6SU+EkIuZADx85Zq7TCmKAcrFbJr5yk3Dydk+WhxrcKhuBu4AA==",
+  "last_updated": "2026-10-29 10:12:05",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(logo-strip): Visning option, grid on all screens\n\n---"
+    "changelog": "- fix(contact-section): anchor the map embed host allowlist\n\n---"
   }
 }
