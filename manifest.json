@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "1.0.3",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.3.zip",
+  "version": "1.0.4",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.4.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "dde71ea8ab19c1020cada3c3011c20047ad52976ee6e62713ff382dfaea35b85",
+  "sha256": "6e47ad11f4d6dcc4f74042a1d32d8296ed5348876e7bd283be0305ed9c9d2567",
   "signature_alg": "ed25519",
-  "signature": "IaEVzxSdXsciCTXq/SbkROgi315IdoS4x8c+6SU+EkIuZADx85Zq7TCmKAcrFbJr5yk3Dydk+WhxrcKhuBu4AA==",
-  "last_updated": "2026-10-29 10:12:05",
+  "signature": "Gis5JkLVA8Pwf9+pU40BavpuB1/pxqjJmi7kieJ+JXQMBDQnDdeGLxH1R50IJxWXWhxqjCWcPgPoW+OAMWsAAw==",
+  "last_updated": "2026-10-30 09:06:34",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(contact-section): anchor the map embed host allowlist\n\n---"
+    "changelog": "- Video reels: Row and Text + row layouts; band control alignment\n\n---"
   }
 }
