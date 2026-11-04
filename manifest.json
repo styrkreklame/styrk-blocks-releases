@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "1.0.4",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.4.zip",
+  "version": "1.0.5",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.5.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "6e47ad11f4d6dcc4f74042a1d32d8296ed5348876e7bd283be0305ed9c9d2567",
+  "sha256": "695be02c3795e7325eb597122f685a2356135b0898086adf79b5aceba84190d6",
   "signature_alg": "ed25519",
-  "signature": "Gis5JkLVA8Pwf9+pU40BavpuB1/pxqjJmi7kieJ+JXQMBDQnDdeGLxH1R50IJxWXWhxqjCWcPgPoW+OAMWsAAw==",
-  "last_updated": "2026-10-30 09:06:34",
+  "signature": "X9JQgUJmCg8IZIlG8YzntNyTaq2h3I5KIRCQMeMJkEpstwxsspukwcaHJa08omDYiX+10bmliUph/L5oAKQHDA==",
+  "last_updated": "2026-11-04 11:14:09",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- Video reels: Row and Text + row layouts; band control alignment\n\n---"
+    "changelog": "- fix(release): the bot's version-bump push skips the local pre-push hook\n\n---"
   }
 }
