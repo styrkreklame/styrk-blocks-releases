@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "1.0.8",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.8.zip",
+  "version": "1.0.9",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.9.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "5961b94491f7906b84ac3635dcab4bc2eb4e1674b1382111da3e3163b69c76db",
+  "sha256": "0152d479ee785b35802aebf758b9a7e537a9fafb560823cbf081c275a12d9df3",
   "signature_alg": "ed25519",
-  "signature": "4N/vSt9h27FHP7T9TeCIQgTu0PZuapPdp0ZuH3g5QWAgzgozANnqME3fDSXWC/ZcCTP9yYKhg2est/T0tXZGBg==",
-  "last_updated": "2026-11-05 10:51:37",
+  "signature": "2ld0MO54lrBOut9E2tqKqZ3TbrK+y9BpnRSzoQdmZ3tBjA6r42aFsCfbkUo0v9YiA+MAUIlinST1TVG2WpKtAw==",
+  "last_updated": "2026-11-05 11:35:59",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat: help clients find the sections when they start a new page\n\n---"
+    "changelog": "- ci: run E2E in the pre-push hook, not on every PR\n\n---"
   }
 }
