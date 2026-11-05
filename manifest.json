@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "1.0.7",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.7.zip",
+  "version": "1.0.8",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.8.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "e1653d673d176c075b7dae46dfd33d565ab7f8f5f25274f4333755c5d78a3b62",
+  "sha256": "5961b94491f7906b84ac3635dcab4bc2eb4e1674b1382111da3e3163b69c76db",
   "signature_alg": "ed25519",
-  "signature": "xSmq586KRcDfd6v/4N+oS3gBVcpND/ikWoKzPOZdyaEtL+no2nEjeWyINa5l5bIp5kj4nFm3zZARVwZDtKanBQ==",
-  "last_updated": "2026-11-05 09:00:03",
+  "signature": "4N/vSt9h27FHP7T9TeCIQgTu0PZuapPdp0ZuH3g5QWAgzgozANnqME3fDSXWC/ZcCTP9yYKhg2est/T0tXZGBg==",
+  "last_updated": "2026-11-05 10:51:37",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix: keep the root-text editor rule off the template editor\n\n---"
+    "changelog": "- feat: help clients find the sections when they start a new page\n\n---"
   }
 }
