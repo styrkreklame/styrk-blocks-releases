@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "1.0.9",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.9.zip",
+  "version": "1.0.10",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.10.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "0152d479ee785b35802aebf758b9a7e537a9fafb560823cbf081c275a12d9df3",
+  "sha256": "cf0c5fa46d262b5e9331b9d38ac96ee6594cf882a316390167a87ac281fb4dfc",
   "signature_alg": "ed25519",
-  "signature": "2ld0MO54lrBOut9E2tqKqZ3TbrK+y9BpnRSzoQdmZ3tBjA6r42aFsCfbkUo0v9YiA+MAUIlinST1TVG2WpKtAw==",
-  "last_updated": "2026-11-05 11:35:59",
+  "signature": "FGPkpImz1yBwTrLdv/0KCF93BoTcZ2NRBhkdRUbnpdjI9aNv1wEV4l8koEbwNcvJRkon7lSJ0Xu+uv3BEGZSBw==",
+  "last_updated": "2026-11-05 11:43:21",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- ci: run E2E in the pre-push hook, not on every PR\n\n---"
+    "changelog": "- feat(split-section): \"Faded\" image display with a fade-length slider; fix invalid body migration\n\n---"
   }
 }
