@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "1.0.6",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.6.zip",
+  "version": "1.0.7",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.7.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "1b43354263bc05245e934dcfbdce20d566df4bdfce1ab642091bd6c71022db7d",
+  "sha256": "e1653d673d176c075b7dae46dfd33d565ab7f8f5f25274f4333755c5d78a3b62",
   "signature_alg": "ed25519",
-  "signature": "19Snt9Kl1MEz7cPZ0+YKW9QOBdxSAQPBD5txgIodTuH1ciPIIPZr0uJbN60+dkw+Tk1rYOB773eeNdZdLmIrBg==",
-  "last_updated": "2026-11-05 07:32:55",
+  "signature": "xSmq586KRcDfd6v/4N+oS3gBVcpND/ikWoKzPOZdyaEtL+no2nEjeWyINa5l5bIp5kj4nFm3zZARVwZDtKanBQ==",
+  "last_updated": "2026-11-05 09:00:03",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix: plain core blocks on a page sit on the content edge with a readable measure\n\n---"
+    "changelog": "- fix: keep the root-text editor rule off the template editor\n\n---"
   }
 }
