@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "1.0.13",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.13.zip",
+  "version": "1.0.14",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.14.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "2e23f84e164873213deadcea130cb59a8b9b29101d6a8414087d9b95446d3993",
+  "sha256": "e2eae00d2ec68ec68ee065a32670d08f82f21df34d1d868116abbcad700cf926",
   "signature_alg": "ed25519",
-  "signature": "c1NIBBHIdFDabqlQZf8xUad/bI9WBTCVsCSlyr/wjXFk+UjwIKxkTwsalwcSW8zhrwahBTEqKZDoV/s2nIYgBw==",
-  "last_updated": "2026-11-12 11:34:36",
+  "signature": "OLz74Q8xjqox3844pr1KMNK99SFjS2leQtfofYhjMx90N/ldNW6RbxOvy38BRjPxU7AswSSALy6TwWftXHBBAA==",
+  "last_updated": "2026-11-17 13:46:24",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(editor): help clients find Styrk sections — skeleton previews and section chooser\n\n---"
+    "changelog": "- feat(split-section): background photo can cover the open side only\n\n---"
   }
 }
