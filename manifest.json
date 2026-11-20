@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "1.0.15",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.15.zip",
+  "version": "1.0.16",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.16.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "35ef6fa4bfa8167348a8431f9ef245b4bdd62aabc0d3f9755d4f1be35a094e8a",
+  "sha256": "72c7d1f573ab29b45604e14d581e6a8a9fd883c2b80ae483fa40a972fd03c47b",
   "signature_alg": "ed25519",
-  "signature": "YPu/nR5XY66qyxkvfaz6slJgDDItS2WPbhi6imxtC9S/VmcIszhXbsHl8aAbR97MLXV95NwyUT/2mW/g0gP2BA==",
-  "last_updated": "2026-11-20 07:11:37",
+  "signature": "EheqbrhxbRRYKADwIfEiAWUVjIZdsycpxlvnscOK0jw2DFvjKBIIVqdxbVUkJ45n2bJPxQgcjG3PAzzEegd4Cg==",
+  "last_updated": "2026-11-20 08:15:47",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(a11y): 48px hero video toggle; split-video focus ring inside the frame\n\n---"
+    "changelog": "- feat: product catalogue with enquiry basket (rebased on main)\n\n---"
   }
 }
