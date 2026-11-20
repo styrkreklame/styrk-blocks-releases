@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "1.0.14",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.14.zip",
+  "version": "1.0.15",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.15.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "e2eae00d2ec68ec68ee065a32670d08f82f21df34d1d868116abbcad700cf926",
+  "sha256": "35ef6fa4bfa8167348a8431f9ef245b4bdd62aabc0d3f9755d4f1be35a094e8a",
   "signature_alg": "ed25519",
-  "signature": "OLz74Q8xjqox3844pr1KMNK99SFjS2leQtfofYhjMx90N/ldNW6RbxOvy38BRjPxU7AswSSALy6TwWftXHBBAA==",
-  "last_updated": "2026-11-17 13:46:24",
+  "signature": "YPu/nR5XY66qyxkvfaz6slJgDDItS2WPbhi6imxtC9S/VmcIszhXbsHl8aAbR97MLXV95NwyUT/2mW/g0gP2BA==",
+  "last_updated": "2026-11-20 07:11:37",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(split-section): background photo can cover the open side only\n\n---"
+    "changelog": "- fix(a11y): 48px hero video toggle; split-video focus ring inside the frame\n\n---"
   }
 }
