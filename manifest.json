@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "1.0.18",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.18.zip",
+  "version": "1.0.19",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.19.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "19a8d879faed76cc9df91c02e89baf54e12603db96ed6ca6e4a560b4d6788335",
+  "sha256": "227e9cd024db0570ab0a08932375c710af5d739dbe196def54bf01b2e86c47dd",
   "signature_alg": "ed25519",
-  "signature": "XopasAgGc+yVH/yTlE3GI0GRliplDnNA2iJJ+a2x1m5jIX+Aih3OwjEO3kBrixnDeFbsgr0Kw2DY4JcQ6i06Aw==",
-  "last_updated": "2026-11-23 09:14:46",
+  "signature": "6W3kdDTxEPjOyZGBOU2wAJsZdDbv77W6VGbWVO3EfUZVb1DSR1kmqE3ipNaKUpsJeI2H3yawplDbzgTIsr56Bg==",
+  "last_updated": "2026-11-23 10:18:42",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(contact-section): link employees to an info row\n\n---"
+    "changelog": "- feat(header/footer/split): mobile menu actions, second footer column, video poster\n\n---"
   }
 }
