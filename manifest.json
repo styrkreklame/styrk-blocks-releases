@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "1.0.17",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.17.zip",
+  "version": "1.0.18",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.18.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "7c0a9e56d62409703767fb6bbcd689b372b4b559c5b79f5a4c86130d255628b0",
+  "sha256": "19a8d879faed76cc9df91c02e89baf54e12603db96ed6ca6e4a560b4d6788335",
   "signature_alg": "ed25519",
-  "signature": "Yg0JH810tLZPfVtlDF6vl7gCTeUFPj6rbKeGTvRSuYG0eGwrhIr4tqa8VJqA3ENxoMfy4EcHobpOt9D9xmn4DQ==",
-  "last_updated": "2026-11-20 08:58:37",
+  "signature": "XopasAgGc+yVH/yTlE3GI0GRliplDnNA2iJJ+a2x1m5jIX+Aih3OwjEO3kBrixnDeFbsgr0Kw2DY4JcQ6i06Aw==",
+  "last_updated": "2026-11-23 09:14:46",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat: site sections, language switch, feature-card logo\n\n---"
+    "changelog": "- feat(contact-section): link employees to an info row\n\n---"
   }
 }
