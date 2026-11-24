@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "1.0.19",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.19.zip",
+  "version": "1.0.20",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.20.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "227e9cd024db0570ab0a08932375c710af5d739dbe196def54bf01b2e86c47dd",
+  "sha256": "18aa8297db1a2f507e675eabce8726b08e5bbbd6b4471812b07c31a00dbfa33b",
   "signature_alg": "ed25519",
-  "signature": "6W3kdDTxEPjOyZGBOU2wAJsZdDbv77W6VGbWVO3EfUZVb1DSR1kmqE3ipNaKUpsJeI2H3yawplDbzgTIsr56Bg==",
-  "last_updated": "2026-11-23 10:18:42",
+  "signature": "FHAzenf4rDqKH4thXSraMw0gtsO296REkuCOaIbupYsBYcPNwIOFUyGxr6PX2Q0VzKYK8R1YQrz0tpGqLBY5BA==",
+  "last_updated": "2026-11-24 13:05:45",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- feat(header/footer/split): mobile menu actions, second footer column, video poster\n\n---"
+    "changelog": "- fix(theme): Forminator visitor strings in the page's language\n\n---"
   }
 }
