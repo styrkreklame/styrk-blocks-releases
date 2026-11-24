@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "1.0.20",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.20.zip",
+  "version": "1.0.21",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.21.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "18aa8297db1a2f507e675eabce8726b08e5bbbd6b4471812b07c31a00dbfa33b",
+  "sha256": "49304ca525bb3b95fede53b90516646d9b6bb37991baf449afb6850374ec041e",
   "signature_alg": "ed25519",
-  "signature": "FHAzenf4rDqKH4thXSraMw0gtsO296REkuCOaIbupYsBYcPNwIOFUyGxr6PX2Q0VzKYK8R1YQrz0tpGqLBY5BA==",
-  "last_updated": "2026-11-24 13:05:45",
+  "signature": "vQcloUROtq/OXSAP/4IS76bz+CaTv+dIq9ncIfnYszr2VFZvJhYWh2rhfz+c1PpPHwGz7R1ZPgjzja4gdIzJAg==",
+  "last_updated": "2026-11-24 14:49:51",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(theme): Forminator visitor strings in the page's language\n\n---"
+    "changelog": "- fix: readable chat, cookie bar, eyebrows and breadcrumbs; chat answers as the company\n\n---"
   }
 }
