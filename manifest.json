@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "1.0.22",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.22.zip",
+  "version": "1.0.23",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.23.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "b4d9146194ba4c23791a53d4c0f103e0dd8da06f2faa4fa8de4b9f717d4a1b99",
+  "sha256": "4f0ef63013b648062192f1c5b4a8c994b73677ad49f542765e8758c72fcff72d",
   "signature_alg": "ed25519",
-  "signature": "YnyWm4Iazxg/esfd2QLoWy6wq85glWLmfishGdQ/C3iXgjSGBnMu5E63TnkpZR70eECe62cTIOPqU74yS+7PBA==",
-  "last_updated": "2026-11-25 07:40:54",
+  "signature": "dGSK+/I4I4cL5nlaaWx+lpctUn/aXAeK7LNLamrsM/x2OFJCBPqrZdVPCOcwhu72my97wjqxPWFSKXuPoJHNCg==",
+  "last_updated": "2026-11-25 12:18:49",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(chat): index Divi shortcode text and match compound words\n\n---"
+    "changelog": "- fix(chat): transparency and retention fixes from the privacy review\n\n---"
   }
 }
