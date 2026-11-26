@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "1.0.23",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.23.zip",
+  "version": "1.0.24",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.24.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "4f0ef63013b648062192f1c5b4a8c994b73677ad49f542765e8758c72fcff72d",
+  "sha256": "6c09b55c6b6658ffaa9d3200becc98ae07e64576f62addc52c1296bcd0254e82",
   "signature_alg": "ed25519",
-  "signature": "dGSK+/I4I4cL5nlaaWx+lpctUn/aXAeK7LNLamrsM/x2OFJCBPqrZdVPCOcwhu72my97wjqxPWFSKXuPoJHNCg==",
-  "last_updated": "2026-11-25 12:18:49",
+  "signature": "A1vy6zSePIcGg+YrXeDne3nCU0gkaCYM+Fsc2AyJrrHNpf2OpAKAq0DYV4Sa/QbzVSbibafuExeqk/wLtoxeBQ==",
+  "last_updated": "2026-11-26 10:05:40",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(chat): transparency and retention fixes from the privacy review\n\n---"
+    "changelog": "- feat(chat): fixed AI label and responsive panel si"
   }
 }
