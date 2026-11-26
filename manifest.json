@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "1.0.25",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.25.zip",
+  "version": "1.0.26",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.26.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "ec9c34f087b5df0b545a050173ad2b9611cf5b1328ae2316943aeda4c1c2fe69",
+  "sha256": "c08b14f0214291fb58241ce44ab955f8690ce407026e84ffbf690cd54e6c2105",
   "signature_alg": "ed25519",
-  "signature": "Nq8dyGK6s/hLtXzXG3/LmnUBxg1tI77SwoUfb8jWfW4YFBqH5ee0+7MskSwIjyylOeu4c0IiaSM9r+R2+tzvBA==",
-  "last_updated": "2026-11-26 10:52:20",
+  "signature": "1pH7o07YVYCrW435MVmu2krQ/0XcNbiaYiBDSaBh1eRjTQSLEUb/5/Ta5GnR53rVhf3SlVDP471pERqjwPKKDw==",
+  "last_updated": "2026-11-26 11:23:44",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(chat): default greeting says it is an AI assistant\n\n---"
+    "changelog": "- fix(chat): warn visitors not to share sensitive data in the chat\n\n---"
   }
 }
