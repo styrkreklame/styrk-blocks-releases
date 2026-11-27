@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "1.0.30",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.30.zip",
+  "version": "1.0.31",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.31.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "9b87bef3ea6607aff24a6e7cbcec60331e1f18f808889670c81bde08bb2a2cd8",
+  "sha256": "797b024e1c6849c3592f0d2abb9b43954ddf06526c34b7938d19572905f7b6d7",
   "signature_alg": "ed25519",
-  "signature": "213Br/XL3yN7sXlpAjnhW9hkO3KeOPlo7zA0VhX7IaZg8Uu+Cyf3kIsGdCRtMkQe00q5RX59E+KGM/uP8G1cAw==",
-  "last_updated": "2026-11-27 10:44:47",
+  "signature": "++paXZhPwI0krKdtmMlWTcm80JTgRT/qgAHxFr9vl6xT+vwyVYQgoVer2z6N5TjkoYULEQ0CIboHKTTlTPhBCg==",
+  "last_updated": "2026-11-27 14:13:14",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(header): search options picked with the arrow keys scroll into view\n\n---"
+    "changelog": "- feat: employee profile-page link, hero overlay colour; header, contact and role fixes\n\n---"
   }
 }
