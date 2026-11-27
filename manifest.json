@@ -1,18 +1,18 @@
 {
   "name": "Styrk Blocks",
   "slug": "styrk-blocks",
-  "version": "1.0.29",
-  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.29.zip",
+  "version": "1.0.30",
+  "download_url": "https://raw.githubusercontent.com/styrkreklame/styrk-blocks-releases/main/styrk-blocks-1.0.30.zip",
   "requires": "6.4",
   "tested": "6.6",
   "requires_php": "8.3",
   "author": "Styrk Reklame AS",
-  "sha256": "bcdc8bf39747bbd36ab0c76e0c9c314d73a58789bf231aeef90bb4b70aac9a46",
+  "sha256": "9b87bef3ea6607aff24a6e7cbcec60331e1f18f808889670c81bde08bb2a2cd8",
   "signature_alg": "ed25519",
-  "signature": "fqblaMLK1DOJAmpmqNZHN5pfjyMIpvK0MXJOG+voG0Fk6wGQsl3gMZKNMerz8wbheMzGWwuwWOdOwmdCnCFfDw==",
-  "last_updated": "2026-11-27 09:40:15",
+  "signature": "213Br/XL3yN7sXlpAjnhW9hkO3KeOPlo7zA0VhX7IaZg8Uu+Cyf3kIsGdCRtMkQe00q5RX59E+KGM/uP8G1cAw==",
+  "last_updated": "2026-11-27 10:44:47",
   "sections": {
     "description": "Custom Gutenberg blocks and admin UX for Styrk Reklame sites.",
-    "changelog": "- fix(cookie-banner): the open settings tab is the marked one\n\n---"
+    "changelog": "- fix(header): search options picked with the arrow keys scroll into view\n\n---"
   }
 }
